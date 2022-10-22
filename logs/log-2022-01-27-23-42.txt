@@ -1,0 +1,249 @@
+2022-01-27 23:42:43,649 - Wechaty - INFO - init_puppet_event_bridge() <<wechaty_puppet_service.puppet.PuppetService object at 0x0000028034888A48>>
+2022-01-27 23:42:43,649 - Wechaty - INFO - initPuppetEventBridge() puppet.on(dong) (listenerCount:1) registering...
+2022-01-27 23:42:43,650 - Wechaty - INFO - initPuppetEventBridge() puppet.on(error) (listenerCount:1) registering...
+2022-01-27 23:42:43,650 - Wechaty - INFO - initPuppetEventBridge() puppet.on(heart-beat) (listenerCount:1) registering...
+2022-01-27 23:42:43,650 - Wechaty - INFO - initPuppetEventBridge() puppet.on(ready) (listenerCount:1) registering...
+2022-01-27 23:42:43,650 - Wechaty - INFO - receive <reset> event <%s>
+2022-01-27 23:42:43,650 - Wechaty - INFO - initPuppetEventBridge() puppet.on(reset) (listenerCount:0) registering...
+2022-01-27 23:42:43,652 - Wechaty - INFO - initPuppetEventBridge() puppet.on(friendship) (listenerCount:1) registering...
+2022-01-27 23:42:43,652 - Wechaty - INFO - initPuppetEventBridge() puppet.on(login) (listenerCount:1) registering...
+2022-01-27 23:42:43,652 - Wechaty - INFO - initPuppetEventBridge() puppet.on(logout) (listenerCount:1) registering...
+2022-01-27 23:42:43,652 - Wechaty - INFO - initPuppetEventBridge() puppet.on(message) (listenerCount:1) registering...
+2022-01-27 23:42:43,652 - Wechaty - INFO - initPuppetEventBridge() puppet.on(room-invite) (listenerCount:1) registering...
+2022-01-27 23:42:43,652 - Wechaty - INFO - initPuppetEventBridge() puppet.on(room-join) (listenerCount:1) registering...
+2022-01-27 23:42:43,652 - Wechaty - INFO - initPuppetEventBridge() puppet.on(room-leave) (listenerCount:1) registering...
+2022-01-27 23:42:43,652 - Wechaty - INFO - initPuppetEventBridge() puppet.on(room-topic) (listenerCount:1) registering...
+2022-01-27 23:42:43,652 - Wechaty - INFO - initPuppetEventBridge() puppet.on(scan) (listenerCount:1) registering...
+2022-01-27 23:42:43,652 - Wechaty - INFO - starting puppet ...
+2022-01-27 23:42:43,652 - PuppetService - INFO - init puppet ...
+2022-01-27 23:42:43,652 - PuppetService - INFO - fetching endpoint from chatie-server: https://api.chatie.io/v0/hosties/puppet_wxwork_b6b7346cac75e512
+2022-01-27 23:42:44,440 - PuppetService - DEBUG - endpoint from chatie-server : <69.231.140.24:17776>
+2022-01-27 23:42:44,854 - PuppetService - INFO - starting the puppet ...
+2022-01-27 23:42:48,637 - PuppetService - INFO - puppet has started ...
+2022-01-27 23:42:48,638 - PuppetService - INFO - listening the event from the puppet ...
+2022-01-27 23:42:50,558 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-27 23:42:51,706 - PuppetService - DEBUG - receive login info <{'contactId': '1688855236272749'}>
+2022-01-27 23:42:51,707 - wechaty.plugin - INFO - start the plugins ...
+2022-01-27 23:42:51,707 - wechaty.plugin - INFO - ============================starting web service========================
+2022-01-27 23:42:51,707 - wechaty.plugin - INFO - starting web service at endpoint: <{0.0.0.0}:{5000}>
+2022-01-27 23:42:51,708 - wechaty.plugin - INFO - Endpoint | Methods            | Websocket | Rule-------- | ------------------ | --------- | -----------------------static   | GET, HEAD, OPTIONS | False     | /static/<path:filename>
+2022-01-27 23:42:51,708 - wechaty.plugin - INFO - ============================web service has started========================
+2022-01-27 23:42:51,708 - Wechaty - INFO - receive <login> event <EventLoginPayload(contact_id='1688855236272749')>
+2022-01-27 23:42:52,009 - Contact - INFO - load contact <Contact <1688855236272749> <杨曦>>
+2022-01-27 23:42:52,009 - Wechaty - DEBUG - emit() event <['Contact <1688855236272749> <杨曦>']> <{}>
+2022-01-27 23:43:05,528 - PuppetService - DEBUG - receive message info <{'messageId': '1002577'}>
+2022-01-27 23:43:05,528 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='1002577', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2022-01-27 23:43:05,530 - Message - DEBUG - Message ready <Message <1002577> is not ready>
+2022-01-27 23:43:06,072 - Contact - INFO - load contact <Contact <7881301304007272> <任之初>>
+2022-01-27 23:43:06,073 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <7881301304007272> <任之初>	C7>
+2022-01-27 23:43:06,073 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <7881301304007272> <任之初>\tC7']> <{}>
+2022-01-27 23:43:06,758 - Room - INFO - Room find <Course 7 - Biology>
+2022-01-27 23:43:06,758 - Room - INFO - Room find_all <Course 7 - Biology>
+2022-01-27 23:43:07,842 - Contact - INFO - load contact <Contact <1688854624299127> <蓝萱>>
+2022-01-27 23:43:07,844 - Contact - INFO - load contact <Contact <1688857088292734> <MITCSSA小助手>>
+2022-01-27 23:43:07,844 - Contact - INFO - load contact <Contact <1688854352317232> <JHJ>>
+2022-01-27 23:43:08,112 - Accessory - WARNING - <Contact <1688857088292734> <MITCSSA小助手>> set payload more than once
+2022-01-27 23:43:08,112 - Contact - INFO - load contact <Contact <1688857088292734> <MITCSSA小助手>>
+2022-01-27 23:43:08,115 - Contact - INFO - load contact <Contact <7881299911173780> <MITCSSA小助手>>
+2022-01-27 23:43:08,117 - Contact - INFO - load contact <Contact <1688854352317235> <Yi Tian>>
+2022-01-27 23:43:08,392 - Contact - INFO - load contact <Contact <1688857300301524> <任之初>>
+2022-01-27 23:43:08,393 - Contact - INFO - load contact <Contact <7881300749949818> <杨曦>>
+2022-01-27 23:43:08,393 - Contact - INFO - load contact <Contact <1688854352317236> <杨竹天>>
+2022-01-27 23:43:08,660 - Accessory - WARNING - <Contact <7881300749949818> <杨曦>> set payload more than once
+2022-01-27 23:43:08,660 - Contact - INFO - load contact <Contact <7881300749949818> <杨曦>>
+2022-01-27 23:43:08,663 - Contact - INFO - load contact <Contact <7881303485151991> <lililililililili>>
+2022-01-27 23:43:08,664 - Contact - INFO - load contact <Contact <1688854352317237> <王沛祺>>
+2022-01-27 23:43:08,938 - Contact - INFO - load contact <Contact <7881303369944615> <徐磊-Lei>>
+2022-01-27 23:43:08,941 - Contact - INFO - load contact <Contact <1688854352317238> <莫佰川>>
+2022-01-27 23:43:09,211 - Contact - INFO - load contact <Contact <7881303374957429> <蓝萱>>
+2022-01-27 23:43:09,214 - Contact - INFO - load contact <Contact <1688854352317239> <简德顺>>
+2022-01-27 23:43:09,485 - Contact - INFO - load contact <Contact <1688854400283629> <Sunny🚁>>
+2022-01-27 23:43:09,755 - Contact - INFO - load contact <Contact <1688854400284361> <紧弱鱼>>
+2022-01-27 23:43:10,026 - Contact - INFO - load contact <Contact <1688854400284699> <兔子>>
+2022-01-27 23:43:10,294 - Contact - INFO - load contact <Contact <1688854400285627> <->>
+2022-01-27 23:43:10,563 - Contact - INFO - load contact <Contact <1688854400285669> <彭靖 James>>
+2022-01-27 23:43:10,564 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-27 23:43:10,833 - Contact - INFO - load contact <Contact <1688854782285131> <小马哥>>
+2022-01-27 23:43:11,102 - Contact - INFO - load contact <Contact <1688855831292343> <李学枫>>
+2022-01-27 23:43:11,373 - Contact - INFO - load contact <Contact <1688856046303097> <一只土豆>>
+2022-01-27 23:43:11,645 - Contact - INFO - load contact <Contact <1688856184307379> <高金>>
+2022-01-27 23:43:11,914 - Contact - INFO - load contact <Contact <1688856184307381> <谭淞宸>>
+2022-01-27 23:43:12,183 - Contact - INFO - load contact <Contact <1688856184307383> <何婧怡🎼Candice>>
+2022-01-27 23:43:12,455 - Contact - INFO - load contact <Contact <1688856184307384> <梦非湮>>
+2022-01-27 23:43:12,726 - Contact - INFO - load contact <Contact <1688857137296728> <Artie（Ping）>>
+2022-01-27 23:43:12,999 - Contact - INFO - load contact <Contact <1688857137296729> <Prometheus>>
+2022-01-27 23:43:13,268 - Contact - INFO - load contact <Contact <1688857137296731> <林祺安>>
+2022-01-27 23:43:13,536 - Contact - INFO - load contact <Contact <1688857137296733> <Ruihan>>
+2022-01-27 23:43:13,809 - Contact - INFO - load contact <Contact <1688857186299790> <NicoleInNz>>
+2022-01-27 23:43:14,661 - Message - DEBUG - Message ready <Message <1002582> is not ready>
+2022-01-27 23:43:30,565 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-27 23:43:50,572 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-27 23:44:10,576 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-27 23:44:12,119 - PuppetService - DEBUG - receive ready info <{'data': 'ready'}>
+2022-01-27 23:44:12,119 - Wechaty - INFO - receive <ready> event <EventReadyPayload(data='ready')>
+2022-01-27 23:44:12,119 - Wechaty - DEBUG - emit() event <["EventReadyPayload(data='ready')"]> <{}>
+2022-01-27 23:44:30,583 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-27 23:44:50,583 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-27 23:45:10,586 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-27 23:45:30,589 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-27 23:45:50,592 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-27 23:46:10,595 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-27 23:46:30,604 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-27 23:46:50,603 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-27 23:47:10,607 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-27 23:47:30,610 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-27 23:47:50,613 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-27 23:48:10,618 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-27 23:48:30,622 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-27 23:48:50,624 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-27 23:49:10,632 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-27 23:49:30,635 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-27 23:49:50,637 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-27 23:50:10,642 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-27 23:50:30,646 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-27 23:50:50,649 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-27 23:51:10,650 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-27 23:51:30,649 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-27 23:51:50,661 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-27 23:52:10,664 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-27 23:52:30,661 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-27 23:52:50,675 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-27 23:53:10,676 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-27 23:53:19,035 - PuppetService - DEBUG - receive message info <{'messageId': '1002588'}>
+2022-01-27 23:53:19,036 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='1002588', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2022-01-27 23:53:19,037 - Message - DEBUG - Message ready <Message <1002588> is not ready>
+2022-01-27 23:53:19,304 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <7881301304007272> <任之初>	test>
+2022-01-27 23:53:19,305 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <7881301304007272> <任之初>\ttest']> <{}>
+2022-01-27 23:53:20,533 - Message - DEBUG - Message ready <Message <1002591> is not ready>
+2022-01-27 23:53:30,680 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-27 23:53:33,716 - PuppetService - DEBUG - receive message info <{'messageId': '1002593'}>
+2022-01-27 23:53:33,718 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='1002593', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2022-01-27 23:53:33,718 - Message - DEBUG - Message ready <Message <1002593> is not ready>
+2022-01-27 23:53:33,986 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <7881301304007272> <任之初>	test>
+2022-01-27 23:53:33,986 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <7881301304007272> <任之初>\ttest']> <{}>
+2022-01-27 23:53:35,231 - Message - DEBUG - Message ready <Message <1002596> is not ready>
+2022-01-27 23:53:50,684 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-27 23:54:10,687 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-27 23:54:30,690 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-27 23:54:50,693 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-27 23:55:10,695 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-27 23:55:22,553 - PuppetService - DEBUG - receive message info <{'messageId': '1002600'}>
+2022-01-27 23:55:22,553 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='1002600', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2022-01-27 23:55:22,553 - Message - DEBUG - Message ready <Message <1002600> is not ready>
+2022-01-27 23:55:22,823 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <7881301304007272> <任之初>	C7>
+2022-01-27 23:55:22,824 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <7881301304007272> <任之初>\tC7']> <{}>
+2022-01-27 23:55:23,497 - Room - INFO - Room find <Course 7 - Biology>
+2022-01-27 23:55:23,497 - Room - INFO - Room find_all <Course 7 - Biology>
+2022-01-27 23:55:24,038 - Room - INFO - Room add <Contact <7881301304007272> <任之初>>
+2022-01-27 23:55:29,516 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-27 23:55:29,520 - PuppetService - DEBUG - receive room-join info <{'inviteeIdList': ['7881301304007272'], 'inviterId': '1688855236272749', 'roomId': 'R:10696053234043637', 'timestamp': 1643345728382}>
+2022-01-27 23:55:29,520 - Wechaty - INFO - receive <room-join> event <EventRoomJoinPayload(invited_ids=['7881301304007272'], inviter_id='1688855236272749', room_id='R:10696053234043637', timestamp=1643345728382)>
+2022-01-27 23:55:29,521 - Wechaty - DEBUG - emit() event <['Room <R:10696053234043637 - Course 7 - Biology>', '[<wechaty.wechaty.Contact object at 0x00000280348BA408>]', 'Contact <1688855236272749> <杨曦>', '2022-01-27 23:55:28.382000']> <{}>
+2022-01-27 23:55:50,704 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-27 23:56:10,708 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-27 23:56:15,343 - PuppetService - DEBUG - receive message info <{'messageId': '1002610'}>
+2022-01-27 23:56:15,343 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='1002610', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2022-01-27 23:56:15,343 - Message - DEBUG - Message ready <Message <1002610> is not ready>
+2022-01-27 23:56:15,614 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <7881301304007272> <任之初>	C7>
+2022-01-27 23:56:15,615 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <7881301304007272> <任之初>\tC7']> <{}>
+2022-01-27 23:56:16,253 - Room - INFO - Room find <Course 7 - Biolog>
+2022-01-27 23:56:16,253 - Room - INFO - Room find_all <Course 7 - Biolog>
+2022-01-27 23:56:17,423 - Message - DEBUG - Message ready <Message <1002613> is not ready>
+2022-01-27 23:56:30,714 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-27 23:56:41,422 - PuppetService - DEBUG - receive message info <{'messageId': '1002617'}>
+2022-01-27 23:56:41,422 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='1002617', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2022-01-27 23:56:41,422 - Message - DEBUG - Message ready <Message <1002617> is not ready>
+2022-01-27 23:56:41,712 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <7881301304007272> <任之初>	C7>
+2022-01-27 23:56:41,713 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <7881301304007272> <任之初>\tC7']> <{}>
+2022-01-27 23:56:42,366 - Room - INFO - Room find <Course 7 - Biolog>
+2022-01-27 23:56:42,366 - Room - INFO - Room find_all <Course 7 - Biolog>
+2022-01-27 23:56:42,947 - Room - INFO - Room add <Contact <7881301304007272> <任之初>>
+2022-01-27 23:56:48,458 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-27 23:56:48,461 - PuppetService - DEBUG - receive room-join info <{'inviteeIdList': ['7881301304007272'], 'inviterId': '1688855236272749', 'roomId': 'R:10696053234043637', 'timestamp': 1643345807325}>
+2022-01-27 23:56:48,461 - Wechaty - INFO - receive <room-join> event <EventRoomJoinPayload(invited_ids=['7881301304007272'], inviter_id='1688855236272749', room_id='R:10696053234043637', timestamp=1643345807325)>
+2022-01-27 23:56:48,461 - Wechaty - DEBUG - emit() event <['Room <R:10696053234043637 - Course 7 - Biology>', '[<wechaty.wechaty.Contact object at 0x00000280348BA408>]', 'Contact <1688855236272749> <杨曦>', '2022-01-27 23:56:47.325000']> <{}>
+2022-01-27 23:57:10,718 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-27 23:57:23,912 - PuppetService - DEBUG - receive message info <{'messageId': '1002627'}>
+2022-01-27 23:57:23,912 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='1002627', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2022-01-27 23:57:23,912 - Message - DEBUG - Message ready <Message <1002627> is not ready>
+2022-01-27 23:57:24,193 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <7881301304007272> <任之初>	C7>
+2022-01-27 23:57:24,193 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <7881301304007272> <任之初>\tC7']> <{}>
+2022-01-27 23:57:24,888 - Room - INFO - Room find <Bio>
+2022-01-27 23:57:24,889 - Room - INFO - Room find_all <Bio>
+2022-01-27 23:57:25,480 - Room - INFO - Room add <Contact <7881301304007272> <任之初>>
+2022-01-27 23:57:30,726 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-27 23:57:30,846 - PuppetService - DEBUG - receive room-join info <{'inviteeIdList': ['7881301304007272'], 'inviterId': '1688855236272749', 'roomId': 'R:10696053234043637', 'timestamp': 1643345849709}>
+2022-01-27 23:57:30,847 - Wechaty - INFO - receive <room-join> event <EventRoomJoinPayload(invited_ids=['7881301304007272'], inviter_id='1688855236272749', room_id='R:10696053234043637', timestamp=1643345849709)>
+2022-01-27 23:57:30,848 - Wechaty - DEBUG - emit() event <['Room <R:10696053234043637 - Course 7 - Biology>', '[<wechaty.wechaty.Contact object at 0x00000280348BA408>]', 'Contact <1688855236272749> <杨曦>', '2022-01-27 23:57:29.709000']> <{}>
+2022-01-27 23:57:50,728 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-27 23:57:58,641 - PuppetService - DEBUG - receive message info <{'messageId': '1002637'}>
+2022-01-27 23:57:58,642 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='1002637', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2022-01-27 23:57:58,642 - Message - DEBUG - Message ready <Message <1002637> is not ready>
+2022-01-27 23:57:58,927 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <7881301304007272> <任之初>	C7>
+2022-01-27 23:57:58,928 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <7881301304007272> <任之初>\tC7']> <{}>
+2022-01-27 23:57:59,564 - Room - INFO - Room find <TEST>
+2022-01-27 23:57:59,564 - Room - INFO - Room find_all <TEST>
+2022-01-27 23:57:59,863 - Wechaty - ERROR - internal error <'NoneType' object has no attribute 'ready'>
+2022-01-27 23:58:10,732 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-27 23:58:30,736 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-27 23:58:47,626 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-27 23:58:47,629 - PuppetService - DEBUG - receive message info <{'messageId': '1002640'}>
+2022-01-27 23:58:47,629 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='1002640', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2022-01-27 23:58:47,630 - Message - DEBUG - Message ready <Message <1002640> is not ready>
+2022-01-27 23:58:47,900 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <7881301304007272> <任之初>	C7>
+2022-01-27 23:58:47,900 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <7881301304007272> <任之初>\tC7']> <{}>
+2022-01-27 23:58:48,556 - Room - INFO - Room find <BIO>
+2022-01-27 23:58:48,556 - Room - INFO - Room find_all <BIO>
+2022-01-27 23:58:48,859 - Wechaty - ERROR - internal error <'NoneType' object has no attribute 'ready'>
+2022-01-27 23:59:07,663 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-27 23:59:07,666 - PuppetService - DEBUG - receive message info <{'messageId': '1002643'}>
+2022-01-27 23:59:07,667 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='1002643', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2022-01-27 23:59:07,667 - Message - DEBUG - Message ready <Message <1002643> is not ready>
+2022-01-27 23:59:07,956 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <7881301304007272> <任之初>	c7>
+2022-01-27 23:59:07,957 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <7881301304007272> <任之初>\tc7']> <{}>
+2022-01-27 23:59:08,649 - Room - INFO - Room find <Bio>
+2022-01-27 23:59:08,649 - Room - INFO - Room find_all <Bio>
+2022-01-27 23:59:09,218 - Room - INFO - Room add <Contact <7881301304007272> <任之初>>
+2022-01-27 23:59:14,497 - PuppetService - DEBUG - receive room-join info <{'inviteeIdList': ['7881301304007272'], 'inviterId': '1688855236272749', 'roomId': 'R:10696053234043637', 'timestamp': 1643345953360}>
+2022-01-27 23:59:14,497 - Wechaty - INFO - receive <room-join> event <EventRoomJoinPayload(invited_ids=['7881301304007272'], inviter_id='1688855236272749', room_id='R:10696053234043637', timestamp=1643345953360)>
+2022-01-27 23:59:14,497 - Wechaty - DEBUG - emit() event <['Room <R:10696053234043637 - Course 7 - Biology>', '[<wechaty.wechaty.Contact object at 0x00000280348BA408>]', 'Contact <1688855236272749> <杨曦>', '2022-01-27 23:59:13.360000']> <{}>
+2022-01-27 23:59:30,747 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-27 23:59:50,752 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-28 00:00:10,755 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-28 00:00:30,761 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-28 00:00:50,763 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-28 00:01:10,767 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-28 00:01:30,773 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-28 00:01:50,776 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-28 00:02:10,783 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-28 00:02:30,787 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-28 00:02:50,790 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-28 00:03:10,794 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-28 00:03:30,801 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-28 00:03:50,800 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-28 00:04:10,808 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-28 00:04:30,808 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-28 00:04:50,810 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-28 00:05:10,816 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-28 00:05:30,818 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-28 00:05:50,822 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-28 00:06:10,828 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-28 00:06:30,831 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-28 00:06:50,835 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-28 00:07:10,842 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-28 00:07:30,845 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-28 00:07:50,848 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-28 00:08:10,864 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-28 00:08:30,857 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-28 00:08:50,860 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-28 00:09:10,864 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-28 00:09:30,869 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-28 00:09:50,871 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-28 00:10:10,875 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-28 00:10:30,878 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-28 00:10:50,883 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-28 00:11:10,886 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-28 00:11:30,892 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-28 00:11:50,892 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-28 00:12:10,896 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-28 00:12:30,898 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>

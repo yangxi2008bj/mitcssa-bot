@@ -1,0 +1,49 @@
+2022-01-28 01:04:03,100 - PuppetService - INFO - init puppet ...
+2022-01-28 01:04:03,101 - PuppetService - INFO - fetching endpoint from chatie-server: https://api.chatie.io/v0/hosties/puppet_wxwork_99c5ab36ca86a639
+2022-01-28 01:04:03,788 - PuppetService - DEBUG - endpoint from chatie-server : <52.82.65.232:19564>
+2022-01-28 01:04:04,090 - PuppetService - INFO - starting the puppet ...
+2022-01-28 01:04:06,727 - PuppetService - INFO - puppet has started ...
+2022-01-28 01:04:06,728 - PuppetService - INFO - listening the event from the puppet ...
+2022-01-28 01:04:08,486 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-28 01:04:09,581 - PuppetService - DEBUG - receive login info <{'contactId': '1688857088292734'}>
+2022-01-28 01:04:28,488 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-28 01:04:35,666 - PuppetService - DEBUG - receive message info <{'messageId': '1001614'}>
+2022-01-28 01:04:42,818 - PuppetService - DEBUG - receive message info <{'messageId': '1001619'}>
+2022-01-28 01:04:46,516 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-28 01:04:46,519 - PuppetService - DEBUG - receive message info <{'messageId': '1001624'}>
+2022-01-28 01:04:48,113 - PuppetService - DEBUG - receive message info <{'messageId': '1001627'}>
+2022-01-28 01:04:52,412 - PuppetService - DEBUG - receive message info <{'messageId': '1001634'}>
+2022-01-28 01:04:56,726 - PuppetService - DEBUG - receive message info <{'messageId': '1001637'}>
+2022-01-28 01:05:08,494 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-28 01:05:09,651 - PuppetService - DEBUG - receive ready info <{'data': 'ready'}>
+2022-01-28 01:05:28,497 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-28 01:05:48,501 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-28 01:06:08,505 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-28 01:06:14,132 - PuppetService - DEBUG - receive message info <{'messageId': '1001640'}>
+2022-01-28 01:06:28,509 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-28 01:06:32,913 - PuppetService - DEBUG - receive message info <{'messageId': '1001645'}>
+2022-01-28 01:06:48,510 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-28 01:07:08,515 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-28 01:07:28,518 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-28 01:07:32,379 - PuppetService - DEBUG - receive message info <{'messageId': '1001652'}>
+2022-01-28 01:07:43,872 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-28 01:07:43,873 - PuppetService - DEBUG - receive message info <{'messageId': '1001657'}>
+2022-01-28 01:08:00,564 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-28 01:08:00,574 - PuppetService - DEBUG - receive message info <{'messageId': '1001660'}>
+2022-01-28 01:08:18,525 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-28 01:08:38,529 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-28 01:08:58,532 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-28 01:09:18,538 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-28 01:09:20,526 - PuppetService - DEBUG - receive message info <{'messageId': '1001663'}>
+2022-01-28 01:09:38,539 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-28 01:09:39,584 - PuppetService - DEBUG - receive message info <{'messageId': '1001666'}>
+2022-01-28 01:09:58,544 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-28 01:10:18,547 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-28 01:10:38,554 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-28 01:10:58,555 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-28 01:11:13,273 - PuppetService - DEBUG - receive message info <{'messageId': '1001673'}>
+2022-01-28 01:11:18,557 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-28 01:11:38,563 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-28 01:11:58,567 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-28 01:12:18,569 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-28 01:12:38,574 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>

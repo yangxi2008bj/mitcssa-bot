@@ -1,0 +1,126 @@
+2022-01-28 00:18:35,761 - Wechaty - INFO - init_puppet_event_bridge() <<wechaty_puppet_service.puppet.PuppetService object at 0x000001D2CE9A5848>>
+2022-01-28 00:18:35,762 - Wechaty - INFO - initPuppetEventBridge() puppet.on(dong) (listenerCount:1) registering...
+2022-01-28 00:18:35,762 - Wechaty - INFO - initPuppetEventBridge() puppet.on(error) (listenerCount:1) registering...
+2022-01-28 00:18:35,762 - Wechaty - INFO - initPuppetEventBridge() puppet.on(heart-beat) (listenerCount:1) registering...
+2022-01-28 00:18:35,762 - Wechaty - INFO - initPuppetEventBridge() puppet.on(ready) (listenerCount:1) registering...
+2022-01-28 00:18:35,762 - Wechaty - INFO - receive <reset> event <%s>
+2022-01-28 00:18:35,762 - Wechaty - INFO - initPuppetEventBridge() puppet.on(reset) (listenerCount:0) registering...
+2022-01-28 00:18:35,764 - Wechaty - INFO - initPuppetEventBridge() puppet.on(friendship) (listenerCount:1) registering...
+2022-01-28 00:18:35,764 - Wechaty - INFO - initPuppetEventBridge() puppet.on(login) (listenerCount:1) registering...
+2022-01-28 00:18:35,764 - Wechaty - INFO - initPuppetEventBridge() puppet.on(logout) (listenerCount:1) registering...
+2022-01-28 00:18:35,764 - Wechaty - INFO - initPuppetEventBridge() puppet.on(message) (listenerCount:1) registering...
+2022-01-28 00:18:35,764 - Wechaty - INFO - initPuppetEventBridge() puppet.on(room-invite) (listenerCount:1) registering...
+2022-01-28 00:18:35,764 - Wechaty - INFO - initPuppetEventBridge() puppet.on(room-join) (listenerCount:1) registering...
+2022-01-28 00:18:35,764 - Wechaty - INFO - initPuppetEventBridge() puppet.on(room-leave) (listenerCount:1) registering...
+2022-01-28 00:18:35,764 - Wechaty - INFO - initPuppetEventBridge() puppet.on(room-topic) (listenerCount:1) registering...
+2022-01-28 00:18:35,764 - Wechaty - INFO - initPuppetEventBridge() puppet.on(scan) (listenerCount:1) registering...
+2022-01-28 00:18:35,764 - Wechaty - INFO - starting puppet ...
+2022-01-28 00:18:35,764 - PuppetService - INFO - init puppet ...
+2022-01-28 00:18:35,764 - PuppetService - INFO - fetching endpoint from chatie-server: https://api.chatie.io/v0/hosties/puppet_wxwork_99c5ab36ca86a639
+2022-01-28 00:18:36,371 - PuppetService - DEBUG - endpoint from chatie-server : <52.82.65.232:19564>
+2022-01-28 00:18:36,640 - PuppetService - INFO - starting the puppet ...
+2022-01-28 00:18:38,991 - PuppetService - INFO - puppet has started ...
+2022-01-28 00:18:38,992 - PuppetService - INFO - listening the event from the puppet ...
+2022-01-28 00:18:39,281 - PuppetService - DEBUG - receive scan info <{'qrcode': 'https://wx.work.weixin.qq.com/cgi-bin/crtx_auth?key=796FF3C5864B37E45261AD7E794D1983&wx=1', 'status': 2}>
+2022-01-28 00:18:39,282 - Wechaty - INFO - receive <scan> event <EventScanPayload(status=<ScanStatus.Waiting: 2>, qrcode='https://wx.work.weixin.qq.com/cgi-bin/crtx_auth?key=796FF3C5864B37E45261AD7E794D1983&wx=1', data=None)>
+2022-01-28 00:18:39,321 - Wechaty - INFO - or you can scan qrcode from: https://wechaty.js.org/qrcode/https://wx.work.weixin.qq.com/cgi-bin/crtx_auth?key=796FF3C5864B37E45261AD7E794D1983&wx=1
+2022-01-28 00:18:39,321 - Wechaty - DEBUG - emit() event <['https://wx.work.weixin.qq.com/cgi-bin/crtx_auth?key=796FF3C5864B37E45261AD7E794D1983&wx=1', 'ScanStatus.Waiting', 'None']> <{}>
+2022-01-28 00:18:39,322 - Wechaty - ERROR - internal error <'MyBot' object has no attribute 'contact_id'>
+2022-01-28 00:18:40,415 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-28 00:19:00,416 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-28 00:19:20,422 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-28 00:19:40,425 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-28 00:20:00,426 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-28 00:20:20,432 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-28 00:20:42,128 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]'}>
+2022-01-28 00:20:44,533 - PuppetService - DEBUG - receive scan info <{'qrcode': 'https://wx.work.weixin.qq.com/cgi-bin/crtx_auth?key=F9024BC8340305C60635A760C4AE5295&wx=1', 'status': 2}>
+2022-01-28 00:20:44,533 - Wechaty - INFO - receive <scan> event <EventScanPayload(status=<ScanStatus.Waiting: 2>, qrcode='https://wx.work.weixin.qq.com/cgi-bin/crtx_auth?key=F9024BC8340305C60635A760C4AE5295&wx=1', data=None)>
+2022-01-28 00:20:44,547 - Wechaty - INFO - or you can scan qrcode from: https://wechaty.js.org/qrcode/https://wx.work.weixin.qq.com/cgi-bin/crtx_auth?key=F9024BC8340305C60635A760C4AE5295&wx=1
+2022-01-28 00:20:44,547 - Wechaty - DEBUG - emit() event <['https://wx.work.weixin.qq.com/cgi-bin/crtx_auth?key=F9024BC8340305C60635A760C4AE5295&wx=1', 'ScanStatus.Waiting', 'None']> <{}>
+2022-01-28 00:20:44,547 - Wechaty - ERROR - internal error <'MyBot' object has no attribute 'contact_id'>
+2022-01-28 00:21:02,135 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]'}>
+2022-01-28 00:21:22,134 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]'}>
+2022-01-28 00:21:42,139 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]'}>
+2022-01-28 00:22:02,146 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]'}>
+2022-01-28 00:22:22,146 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]'}>
+2022-01-28 00:22:42,151 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]'}>
+2022-01-28 00:23:02,158 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]'}>
+2022-01-28 00:23:22,158 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]'}>
+2022-01-28 00:23:42,162 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]'}>
+2022-01-28 00:24:02,166 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]'}>
+2022-01-28 00:24:22,188 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]'}>
+2022-01-28 00:24:42,171 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]'}>
+2022-01-28 00:25:02,175 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]'}>
+2022-01-28 00:25:22,178 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]'}>
+2022-01-28 00:25:42,182 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]'}>
+2022-01-28 00:26:02,184 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]'}>
+2022-01-28 00:26:22,189 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]'}>
+2022-01-28 00:26:42,195 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]'}>
+2022-01-28 00:27:02,194 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]'}>
+2022-01-28 00:27:22,197 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]'}>
+2022-01-28 00:27:42,202 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]'}>
+2022-01-28 00:28:02,204 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]'}>
+2022-01-28 00:28:22,208 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]'}>
+2022-01-28 00:28:42,225 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]'}>
+2022-01-28 00:29:02,214 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]'}>
+2022-01-28 00:29:22,217 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]'}>
+2022-01-28 00:29:42,221 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]'}>
+2022-01-28 00:30:02,225 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]'}>
+2022-01-28 00:30:22,227 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]'}>
+2022-01-28 00:30:42,230 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]'}>
+2022-01-28 00:30:55,325 - PuppetService - DEBUG - receive scan info <{'qrcode': 'https://wx.work.weixin.qq.com/cgi-bin/crtx_auth?key=79F3357AE4638F008B46183090CF7C5C&wx=1', 'status': 2}>
+2022-01-28 00:30:55,326 - Wechaty - INFO - receive <scan> event <EventScanPayload(status=<ScanStatus.Waiting: 2>, qrcode='https://wx.work.weixin.qq.com/cgi-bin/crtx_auth?key=79F3357AE4638F008B46183090CF7C5C&wx=1', data=None)>
+2022-01-28 00:30:55,345 - Wechaty - INFO - or you can scan qrcode from: https://wechaty.js.org/qrcode/https://wx.work.weixin.qq.com/cgi-bin/crtx_auth?key=79F3357AE4638F008B46183090CF7C5C&wx=1
+2022-01-28 00:30:55,345 - Wechaty - DEBUG - emit() event <['https://wx.work.weixin.qq.com/cgi-bin/crtx_auth?key=79F3357AE4638F008B46183090CF7C5C&wx=1', 'ScanStatus.Waiting', 'None']> <{}>
+2022-01-28 00:30:55,345 - Wechaty - ERROR - internal error <'MyBot' object has no attribute 'contact_id'>
+2022-01-28 00:31:02,233 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]'}>
+2022-01-28 00:31:22,238 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]'}>
+2022-01-28 00:31:42,241 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]'}>
+2022-01-28 00:32:02,249 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]'}>
+2022-01-28 00:32:22,250 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]'}>
+2022-01-28 00:32:42,254 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]'}>
+2022-01-28 00:33:02,256 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]'}>
+2022-01-28 00:33:22,262 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]'}>
+2022-01-28 00:33:42,266 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]'}>
+2022-01-28 00:34:02,271 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]'}>
+2022-01-28 00:34:22,273 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]'}>
+2022-01-28 00:34:42,274 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]'}>
+2022-01-28 00:35:02,277 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]'}>
+2022-01-28 00:35:22,281 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]'}>
+2022-01-28 00:35:42,284 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]'}>
+2022-01-28 00:36:02,286 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]'}>
+2022-01-28 00:36:22,292 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]'}>
+2022-01-28 00:36:42,296 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]'}>
+2022-01-28 00:37:02,301 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]'}>
+2022-01-28 00:37:22,302 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]'}>
+2022-01-28 00:37:42,307 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]'}>
+2022-01-28 00:38:02,310 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]'}>
+2022-01-28 00:38:22,311 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]'}>
+2022-01-28 00:38:42,315 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]'}>
+2022-01-28 00:39:02,323 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]'}>
+2022-01-28 00:39:22,324 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]'}>
+2022-01-28 00:39:42,328 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]'}>
+2022-01-28 00:40:02,331 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]'}>
+2022-01-28 00:40:22,336 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]'}>
+2022-01-28 00:40:42,339 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]'}>
+2022-01-28 00:40:55,997 - PuppetService - DEBUG - receive scan info <{'qrcode': 'https://wx.work.weixin.qq.com/cgi-bin/crtx_auth?key=AA0BDAFFF464D33CFCDFEB94F93BEED3&wx=1', 'status': 2}>
+2022-01-28 00:40:55,998 - Wechaty - INFO - receive <scan> event <EventScanPayload(status=<ScanStatus.Waiting: 2>, qrcode='https://wx.work.weixin.qq.com/cgi-bin/crtx_auth?key=AA0BDAFFF464D33CFCDFEB94F93BEED3&wx=1', data=None)>
+2022-01-28 00:40:56,019 - Wechaty - INFO - or you can scan qrcode from: https://wechaty.js.org/qrcode/https://wx.work.weixin.qq.com/cgi-bin/crtx_auth?key=AA0BDAFFF464D33CFCDFEB94F93BEED3&wx=1
+2022-01-28 00:40:56,019 - Wechaty - DEBUG - emit() event <['https://wx.work.weixin.qq.com/cgi-bin/crtx_auth?key=AA0BDAFFF464D33CFCDFEB94F93BEED3&wx=1', 'ScanStatus.Waiting', 'None']> <{}>
+2022-01-28 00:40:56,019 - Wechaty - ERROR - internal error <'MyBot' object has no attribute 'contact_id'>
+2022-01-28 00:41:02,345 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]'}>
+2022-01-28 00:41:22,347 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]'}>
+2022-01-28 00:41:42,351 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]'}>
+2022-01-28 00:42:02,352 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]'}>
+2022-01-28 00:42:22,357 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]'}>
+2022-01-28 00:42:42,360 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]'}>
+2022-01-28 00:43:02,367 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]'}>
+2022-01-28 00:43:22,368 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]'}>
+2022-01-28 00:43:42,372 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]'}>
+2022-01-28 00:44:02,376 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]'}>
+2022-01-28 00:44:22,377 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]'}>
+2022-01-28 00:44:42,381 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]'}>
+2022-01-28 00:45:02,385 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]'}>
+2022-01-28 00:45:22,389 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]'}>
+2022-01-28 00:45:42,394 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]'}>
+2022-01-28 00:46:02,396 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]'}>

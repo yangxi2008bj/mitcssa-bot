@@ -1,0 +1,573 @@
+2022-01-28 00:57:04,156 - Wechaty - INFO - init_puppet_event_bridge() <<wechaty_puppet_service.puppet.PuppetService object at 0x000001E7E31AB648>>
+2022-01-28 00:57:04,156 - Wechaty - INFO - initPuppetEventBridge() puppet.on(dong) (listenerCount:1) registering...
+2022-01-28 00:57:04,156 - Wechaty - INFO - initPuppetEventBridge() puppet.on(error) (listenerCount:1) registering...
+2022-01-28 00:57:04,156 - Wechaty - INFO - initPuppetEventBridge() puppet.on(heart-beat) (listenerCount:1) registering...
+2022-01-28 00:57:04,157 - Wechaty - INFO - initPuppetEventBridge() puppet.on(ready) (listenerCount:1) registering...
+2022-01-28 00:57:04,157 - Wechaty - INFO - receive <reset> event <%s>
+2022-01-28 00:57:04,157 - Wechaty - INFO - initPuppetEventBridge() puppet.on(reset) (listenerCount:0) registering...
+2022-01-28 00:57:04,157 - Wechaty - INFO - initPuppetEventBridge() puppet.on(friendship) (listenerCount:1) registering...
+2022-01-28 00:57:04,158 - Wechaty - INFO - initPuppetEventBridge() puppet.on(login) (listenerCount:1) registering...
+2022-01-28 00:57:04,158 - Wechaty - INFO - initPuppetEventBridge() puppet.on(logout) (listenerCount:1) registering...
+2022-01-28 00:57:04,158 - Wechaty - INFO - initPuppetEventBridge() puppet.on(message) (listenerCount:1) registering...
+2022-01-28 00:57:04,158 - Wechaty - INFO - initPuppetEventBridge() puppet.on(room-invite) (listenerCount:1) registering...
+2022-01-28 00:57:04,158 - Wechaty - INFO - initPuppetEventBridge() puppet.on(room-join) (listenerCount:1) registering...
+2022-01-28 00:57:04,158 - Wechaty - INFO - initPuppetEventBridge() puppet.on(room-leave) (listenerCount:1) registering...
+2022-01-28 00:57:04,158 - Wechaty - INFO - initPuppetEventBridge() puppet.on(room-topic) (listenerCount:1) registering...
+2022-01-28 00:57:04,158 - Wechaty - INFO - initPuppetEventBridge() puppet.on(scan) (listenerCount:1) registering...
+2022-01-28 00:57:04,158 - Wechaty - INFO - starting puppet ...
+2022-01-28 00:57:04,158 - PuppetService - INFO - init puppet ...
+2022-01-28 00:57:04,159 - PuppetService - INFO - fetching endpoint from chatie-server: https://api.chatie.io/v0/hosties/puppet_wxwork_99c5ab36ca86a639
+2022-01-28 00:57:04,862 - PuppetService - DEBUG - endpoint from chatie-server : <52.82.65.232:19564>
+2022-01-28 00:57:05,154 - PuppetService - INFO - starting the puppet ...
+2022-01-28 00:57:08,164 - PuppetService - INFO - puppet has started ...
+2022-01-28 00:57:08,164 - PuppetService - INFO - listening the event from the puppet ...
+2022-01-28 00:57:09,933 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-28 00:57:11,025 - PuppetService - DEBUG - receive login info <{'contactId': '1688857088292734'}>
+2022-01-28 00:57:11,025 - wechaty.plugin - INFO - start the plugins ...
+2022-01-28 00:57:11,025 - wechaty.plugin - INFO - ============================starting web service========================
+2022-01-28 00:57:11,025 - wechaty.plugin - INFO - starting web service at endpoint: <{0.0.0.0}:{5000}>
+2022-01-28 00:57:11,026 - wechaty.plugin - INFO - Endpoint | Methods            | Websocket | Rule-------- | ------------------ | --------- | -----------------------static   | GET, HEAD, OPTIONS | False     | /static/<path:filename>
+2022-01-28 00:57:11,026 - wechaty.plugin - INFO - ============================web service has started========================
+2022-01-28 00:57:11,026 - Wechaty - INFO - receive <login> event <EventLoginPayload(contact_id='1688857088292734')>
+2022-01-28 00:57:11,335 - Contact - INFO - load contact <Contact <1688857088292734> <MITCSSA小助手>>
+2022-01-28 00:57:11,335 - Wechaty - DEBUG - emit() event <['Contact <1688857088292734> <MITCSSA小助手>']> <{}>
+2022-01-28 00:57:11,453 - PuppetService - DEBUG - receive message info <{'messageId': '1001245'}>
+2022-01-28 00:57:11,453 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='1001245', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2022-01-28 00:57:11,454 - Message - DEBUG - Message ready <Message <1001245> is not ready>
+2022-01-28 00:57:11,493 - PuppetService - DEBUG - receive message info <{'messageId': '1001091'}>
+2022-01-28 00:57:11,493 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='1001091', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2022-01-28 00:57:11,493 - Message - DEBUG - Message ready <Message <1001091> is not ready>
+2022-01-28 00:57:11,498 - PuppetService - DEBUG - receive message info <{'messageId': '1001071'}>
+2022-01-28 00:57:11,498 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='1001071', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2022-01-28 00:57:11,498 - Message - DEBUG - Message ready <Message <1001071> is not ready>
+2022-01-28 00:57:12,022 - Contact - INFO - load contact <Contact <7881300749949818> <杨曦>>
+2022-01-28 00:57:12,062 - Contact - INFO - load contact <Contact <7881303369944615> <徐磊-Lei>>
+2022-01-28 00:57:12,063 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <7881303369944615> <徐磊-Lei>	我已经添加了你，现在我们可以开始聊天了。>
+2022-01-28 00:57:12,063 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <7881303369944615> <徐磊-Lei>\t我已经添加了你，现在我们可以开始聊天了。']> <{}>
+2022-01-28 00:57:12,755 - Contact - INFO - load contact <Contact <7881303374957429> <蓝萱>>
+2022-01-28 00:57:12,755 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <7881303374957429> <蓝萱>	我已经添加了你，现在我们可以开始聊天了。>
+2022-01-28 00:57:12,756 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <7881303374957429> <蓝萱>\t我已经添加了你，现在我们可以开始聊天了。']> <{}>
+2022-01-28 00:57:14,011 - Contact - INFO - load contact <Contact <1688854624299127> <蓝萱>>
+2022-01-28 00:57:14,295 - Contact - INFO - load contact <Contact <1688855236272749> <杨曦>>
+2022-01-28 00:57:14,581 - Contact - INFO - load contact <Contact <1688857300301524> <任之初>>
+2022-01-28 00:57:14,675 - PuppetService - DEBUG - receive message info <{'messageId': '1001548'}>
+2022-01-28 00:57:14,676 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='1001548', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2022-01-28 00:57:14,676 - Message - DEBUG - Message ready <Message <1001548> is not ready>
+2022-01-28 00:57:14,864 - Contact - INFO - load contact <Contact <7881301304007272> <任之初>>
+2022-01-28 00:57:14,865 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <7881300749949818> <杨曦>@👥 Room <R:10696049301045626 - 小助手重建项目组>]	好>
+2022-01-28 00:57:14,865 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <7881300749949818> <杨曦>@👥 Room <R:10696049301045626 - 小助手重建项目组>]\t好']> <{}>
+2022-01-28 00:57:14,962 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <7881300749949818> <杨曦>	yangxi20@mit.edu>
+2022-01-28 00:57:14,962 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <7881300749949818> <杨曦>\tyangxi20@mit.edu']> <{}>
+2022-01-28 00:57:18,085 - Message - DEBUG - Message ready <Message <1001544> is not ready>
+2022-01-28 00:57:18,728 - Message - DEBUG - Message ready <Message <1001546> is not ready>
+2022-01-28 00:57:22,602 - Message - DEBUG - Message ready <Message <1001551> is not ready>
+2022-01-28 00:57:29,936 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-28 00:57:49,942 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-28 00:57:52,353 - PuppetService - DEBUG - receive message info <{'messageId': '1001557'}>
+2022-01-28 00:57:52,353 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='1001557', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2022-01-28 00:57:52,353 - Message - DEBUG - Message ready <Message <1001557> is not ready>
+2022-01-28 00:57:52,650 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <7881303369944615> <徐磊-Lei>@👥 Room <R:10696049301045626 - 小助手重建项目组>]	小助手怎么主动给我发消息了>
+2022-01-28 00:57:52,651 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <7881303369944615> <徐磊-Lei>@👥 Room <R:10696049301045626 - 小助手重建项目组>]\t小助手怎么主动给我发消息了']> <{}>
+2022-01-28 00:57:56,228 - PuppetService - DEBUG - receive message info <{'messageId': '1001560'}>
+2022-01-28 00:57:56,229 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='1001560', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2022-01-28 00:57:56,229 - Message - DEBUG - Message ready <Message <1001560> is not ready>
+2022-01-28 00:57:56,512 - Wechaty - INFO - receive message <Message#message_type_emoticon[🗣 Contact <7881303369944615> <徐磊-Lei>@👥 Room <R:10696049301045626 - 小助手重建项目组>]>
+2022-01-28 00:57:56,513 - Wechaty - DEBUG - emit() event <['Message#message_type_emoticon[🗣 Contact <7881303369944615> <徐磊-Lei>@👥 Room <R:10696049301045626 - 小助手重建项目组>]']> <{}>
+2022-01-28 00:58:08,003 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-28 00:58:08,012 - PuppetService - DEBUG - receive message info <{'messageId': '1001563'}>
+2022-01-28 00:58:08,012 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='1001563', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2022-01-28 00:58:08,012 - Message - DEBUG - Message ready <Message <1001563> is not ready>
+2022-01-28 00:58:08,299 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <7881300749949818> <杨曦>@👥 Room <R:10696049301045626 - 小助手重建项目组>]	啊>
+2022-01-28 00:58:08,299 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <7881300749949818> <杨曦>@👥 Room <R:10696049301045626 - 小助手重建项目组>]\t啊']> <{}>
+2022-01-28 00:58:08,701 - PuppetService - DEBUG - receive message info <{'messageId': '1001566'}>
+2022-01-28 00:58:08,702 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='1001566', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2022-01-28 00:58:08,702 - Message - DEBUG - Message ready <Message <1001566> is not ready>
+2022-01-28 00:58:08,986 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <7881301304007272> <任之初>	YULO3U>
+2022-01-28 00:58:08,987 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <7881301304007272> <任之初>\tYULO3U']> <{}>
+2022-01-28 00:58:09,934 - Wechaty - ERROR - internal error <'NoneType' object has no attribute 'verification_code'>
+2022-01-28 00:58:11,110 - PuppetService - DEBUG - receive message info <{'messageId': '1001452'}>
+2022-01-28 00:58:11,110 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='1001452', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2022-01-28 00:58:11,110 - Message - DEBUG - Message ready <Message <1001452> is not ready>
+2022-01-28 00:58:11,165 - PuppetService - DEBUG - receive ready info <{'data': 'ready'}>
+2022-01-28 00:58:11,165 - Wechaty - INFO - receive <ready> event <EventReadyPayload(data='ready')>
+2022-01-28 00:58:11,165 - Wechaty - DEBUG - emit() event <["EventReadyPayload(data='ready')"]> <{}>
+2022-01-28 00:58:11,691 - Contact - INFO - load contact <Contact <7881302941034685> <Annngel大珊珊>>
+2022-01-28 00:58:12,590 - Contact - INFO - load contact <Contact <7881299450053331> <Z.J.Y.>>
+2022-01-28 00:58:12,876 - Contact - INFO - load contact <Contact <7881299455914055> <胡耘畅>>
+2022-01-28 00:58:13,161 - Contact - INFO - load contact <Contact <7881299457068087> <乐斐>>
+2022-01-28 00:58:13,451 - Contact - INFO - load contact <Contact <7881299458030589> <ledo>>
+2022-01-28 00:58:13,736 - Contact - INFO - load contact <Contact <7881299466021712> <jla🍒>>
+2022-01-28 00:58:14,027 - Contact - INFO - load contact <Contact <7881299498044345> <H>>
+2022-01-28 00:58:14,313 - Contact - INFO - load contact <Contact <7881299511978210> <近日点>>
+2022-01-28 00:58:14,597 - Contact - INFO - load contact <Contact <7881299539016668> <蒋欣彦 Elaine^_^>>
+2022-01-28 00:58:14,882 - Contact - INFO - load contact <Contact <7881299548997992> <小僧无天>>
+2022-01-28 00:58:15,168 - Contact - INFO - load contact <Contact <7881299555921383> <JJJ>>
+2022-01-28 00:58:15,458 - Contact - INFO - load contact <Contact <7881299578091680> <糖小喵>>
+2022-01-28 00:58:15,745 - Contact - INFO - load contact <Contact <7881299578974326> <叶光昊>>
+2022-01-28 00:58:16,028 - Contact - INFO - load contact <Contact <7881299581909837> <ken>>
+2022-01-28 00:58:16,314 - Contact - INFO - load contact <Contact <7881299592953392> <戴鑫哲>>
+2022-01-28 00:58:16,598 - Contact - INFO - load contact <Contact <7881299596907897> <Christy🦄>>
+2022-01-28 00:58:16,884 - Contact - INFO - load contact <Contact <7881299619069647> <马磊鑫>>
+2022-01-28 00:58:17,170 - Contact - INFO - load contact <Contact <7881299637053925> <Shuang>>
+2022-01-28 00:58:17,457 - Contact - INFO - load contact <Contact <7881299671036202> <Lia L>>
+2022-01-28 00:58:17,741 - Contact - INFO - load contact <Contact <7881299677926867> <田家昆>>
+2022-01-28 00:58:18,025 - Contact - INFO - load contact <Contact <7881299692933015> <Guo>>
+2022-01-28 00:58:18,307 - Contact - INFO - load contact <Contact <7881299693127850> <Zoe🌟>>
+2022-01-28 00:58:18,594 - Contact - INFO - load contact <Contact <7881299704173282> <DL>>
+2022-01-28 00:58:18,880 - Contact - INFO - load contact <Contact <7881299755915921> <Cicada>>
+2022-01-28 00:58:19,164 - Contact - INFO - load contact <Contact <7881299789009300> <Sunshine>>
+2022-01-28 00:58:19,459 - Contact - INFO - load contact <Contact <7881299797013183> <syyy²>>
+2022-01-28 00:58:19,696 - PuppetService - DEBUG - receive message info <{'messageId': '1001569'}>
+2022-01-28 00:58:19,697 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='1001569', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2022-01-28 00:58:19,697 - Message - DEBUG - Message ready <Message <1001569> is not ready>
+2022-01-28 00:58:19,751 - Contact - INFO - load contact <Contact <7881299808975916> <阿洛>>
+2022-01-28 00:58:19,980 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <7881300749949818> <杨曦>	YULO3U>
+2022-01-28 00:58:19,981 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <7881300749949818> <杨曦>\tYULO3U']> <{}>
+2022-01-28 00:58:20,982 - Contact - INFO - load contact <Contact <7881299811145322> <明>>
+2022-01-28 00:58:21,273 - Contact - INFO - load contact <Contact <7881299827055519> <紧弱鱼>>
+2022-01-28 00:58:21,565 - Contact - INFO - load contact <Contact <7881299840946095> <Daniel Liu🌮🌊>>
+2022-01-28 00:58:21,850 - Contact - INFO - load contact <Contact <7881299842005725> <靡菲斯特>>
+2022-01-28 00:58:22,141 - Contact - INFO - load contact <Contact <7881299842067936> <Yuheng Yang>>
+2022-01-28 00:58:22,450 - Contact - INFO - load contact <Contact <7881299847941059> <0.0>>
+2022-01-28 00:58:22,733 - Contact - INFO - load contact <Contact <7881299863012319> <L.xxx>>
+2022-01-28 00:58:23,026 - Contact - INFO - load contact <Contact <7881299864915121> <都教授的小白兔>>
+2022-01-28 00:58:23,310 - Contact - INFO - load contact <Contact <7881299877916098> <Aseric>>
+2022-01-28 00:58:23,600 - Contact - INFO - load contact <Contact <7881299879919565> <Zhen>>
+2022-01-28 00:58:23,885 - Contact - INFO - load contact <Contact <7881299888069734> <简德顺>>
+2022-01-28 00:58:24,177 - Contact - INFO - load contact <Contact <7881299896019968> <风神>>
+2022-01-28 00:58:24,460 - Contact - INFO - load contact <Contact <7881299908056551> <Alex安凯迪>>
+2022-01-28 00:58:24,743 - Contact - INFO - load contact <Contact <7881299911173780> <MITCSSA小助手>>
+2022-01-28 00:58:25,029 - Contact - INFO - load contact <Contact <7881299924016743> <J.>>
+2022-01-28 00:58:25,320 - Contact - INFO - load contact <Contact <7881299928938653> <XH>>
+2022-01-28 00:58:25,605 - Contact - INFO - load contact <Contact <7881299938930641> <Jim 肇极>>
+2022-01-28 00:58:25,892 - Contact - INFO - load contact <Contact <7881299972107708> <谭淞宸>>
+2022-01-28 00:58:26,177 - Contact - INFO - load contact <Contact <7881299976069023> <H.Wang>>
+2022-01-28 00:58:26,463 - Contact - INFO - load contact <Contact <7881299977977041> <Wentao Weng>>
+2022-01-28 00:58:26,750 - Contact - INFO - load contact <Contact <7881299987152225> <罗鸿胤>>
+2022-01-28 00:58:27,036 - Contact - INFO - load contact <Contact <7881300005939997> <王重阳>>
+2022-01-28 00:58:27,320 - Contact - INFO - load contact <Contact <7881300024036898> <lp>>
+2022-01-28 00:58:27,606 - Contact - INFO - load contact <Contact <7881300026193591> <C.Z>>
+2022-01-28 00:58:27,893 - Contact - INFO - load contact <Contact <7881300055029932> <Ms. 瑾>>
+2022-01-28 00:58:28,176 - Contact - INFO - load contact <Contact <7881300097087846> <Fang>>
+2022-01-28 00:58:28,461 - Contact - INFO - load contact <Contact <7881300109055680> <wilson>>
+2022-01-28 00:58:28,746 - Contact - INFO - load contact <Contact <7881300117055561> <跳跳鱼>>
+2022-01-28 00:58:29,030 - Contact - INFO - load contact <Contact <7881300118900691> <阿里>>
+2022-01-28 00:58:29,316 - Contact - INFO - load contact <Contact <7881300132927783> <明眸皓齿>>
+2022-01-28 00:58:29,601 - Contact - INFO - load contact <Contact <7881300144076059> <栾继政>>
+2022-01-28 00:58:29,891 - Contact - INFO - load contact <Contact <7881300184060383> <ZQ>>
+2022-01-28 00:58:29,947 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-28 00:58:30,173 - Contact - INFO - load contact <Contact <7881300185040162> <佳佳佩>>
+2022-01-28 00:58:30,462 - Contact - INFO - load contact <Contact <7881300186063092> <CJM>>
+2022-01-28 00:58:30,747 - Contact - INFO - load contact <Contact <7881300193989210> <Artie（Ping）>>
+2022-01-28 00:58:31,032 - Contact - INFO - load contact <Contact <7881300205974734> <郭婧Kristy>>
+2022-01-28 00:58:31,316 - Contact - INFO - load contact <Contact <7881300210922917> <larry>>
+2022-01-28 00:58:31,600 - Contact - INFO - load contact <Contact <7881300223977803> <wwwwwww:)>>
+2022-01-28 00:58:31,888 - Contact - INFO - load contact <Contact <7881300263101446> <ZY. Shu>>
+2022-01-28 00:58:32,174 - Contact - INFO - load contact <Contact <7881300267069105> <玛利亚 Yu>>
+2022-01-28 00:58:32,460 - Contact - INFO - load contact <Contact <7881300282069970> <特斯拉的电灯泡>>
+2022-01-28 00:58:32,748 - Contact - INFO - load contact <Contact <7881300290059595> <睡神>>
+2022-01-28 00:58:33,034 - Contact - INFO - load contact <Contact <7881300298027208> <陈博远>>
+2022-01-28 00:58:33,316 - Contact - INFO - load contact <Contact <7881300306112652> <Lily 刘心铭>>
+2022-01-28 00:58:33,601 - Contact - INFO - load contact <Contact <7881300310961850> <刘嘉耿 Jiageng>>
+2022-01-28 00:58:33,885 - Contact - INFO - load contact <Contact <7881300353947383> <李大娃>>
+2022-01-28 00:58:34,170 - Contact - INFO - load contact <Contact <7881300378004198> <北风>>
+2022-01-28 00:58:34,456 - Contact - INFO - load contact <Contact <7881300385926632> <Lyou Yeung⁶>>
+2022-01-28 00:58:34,746 - Contact - INFO - load contact <Contact <7881300386950639> <Eric>>
+2022-01-28 00:58:35,031 - Contact - INFO - load contact <Contact <7881300390020458> <Tree>>
+2022-01-28 00:58:35,318 - Contact - INFO - load contact <Contact <7881300390971625> <Y1N9X8>>
+2022-01-28 00:58:35,604 - Contact - INFO - load contact <Contact <7881300403049425> <Lica哩咔>>
+2022-01-28 00:58:35,890 - Contact - INFO - load contact <Contact <7881300408085902> <JaSoN>>
+2022-01-28 00:58:36,173 - Contact - INFO - load contact <Contact <7881300412075783> <Naike耐克>>
+2022-01-28 00:58:36,462 - Contact - INFO - load contact <Contact <7881300420092072> <蜜柚>>
+2022-01-28 00:58:36,750 - Contact - INFO - load contact <Contact <7881300468981086> <JHJ>>
+2022-01-28 00:58:37,036 - Contact - INFO - load contact <Contact <7881300505130378> <南希希>>
+2022-01-28 00:58:37,324 - Contact - INFO - load contact <Contact <7881300516108304> <JunE Zhu>>
+2022-01-28 00:58:37,611 - Contact - INFO - load contact <Contact <7881300520912162> <海中树>>
+2022-01-28 00:58:37,903 - Contact - INFO - load contact <Contact <7881300523110493> < 三体>>
+2022-01-28 00:58:38,203 - Contact - INFO - load contact <Contact <7881300527932423> <Jessieeeee®>>
+2022-01-28 00:58:38,503 - Contact - INFO - load contact <Contact <7881300538064498> <· J ·>>
+2022-01-28 00:58:38,788 - Contact - INFO - load contact <Contact <7881300550052833> <Flora雨霏霏🌸>>
+2022-01-28 00:58:39,074 - Contact - INFO - load contact <Contact <7881300554164056> <硬梆梆的快乐熊猫>>
+2022-01-28 00:58:39,360 - Contact - INFO - load contact <Contact <7881300562057498> <Andy B.>>
+2022-01-28 00:58:39,645 - Contact - INFO - load contact <Contact <7881300584994119> <Coco>>
+2022-01-28 00:58:39,932 - Contact - INFO - load contact <Contact <7881300612053391> <卢苇>>
+2022-01-28 00:58:40,216 - Contact - INFO - load contact <Contact <7881300615008967> <Camus>>
+2022-01-28 00:58:40,503 - Contact - INFO - load contact <Contact <7881300618069492> <张碧莹>>
+2022-01-28 00:58:40,787 - Contact - INFO - load contact <Contact <7881300635109414> <贺之阳 Sunny>>
+2022-01-28 00:58:41,072 - Contact - INFO - load contact <Contact <7881300639977048> <Yu>>
+2022-01-28 00:58:41,359 - Contact - INFO - load contact <Contact <7881300642046432> <雍政祺 Charles>>
+2022-01-28 00:58:41,643 - Contact - INFO - load contact <Contact <7881300644992365> <Resplendent GAGA>>
+2022-01-28 00:58:41,930 - Contact - INFO - load contact <Contact <7881300704039839> <陈敏之>>
+2022-01-28 00:58:42,223 - Contact - INFO - load contact <Contact <7881300734059939> <C.W>>
+2022-01-28 00:58:42,507 - Contact - INFO - load contact <Contact <7881300741898370> <×>>
+2022-01-28 00:58:42,792 - Contact - INFO - load contact <Contact <7881300761070462> <Toru>>
+2022-01-28 00:58:43,079 - Contact - INFO - load contact <Contact <7881300766042742> <菜园小饼>>
+2022-01-28 00:58:43,364 - Contact - INFO - load contact <Contact <7881300767099266> <傅颢硕>>
+2022-01-28 00:58:43,650 - Contact - INFO - load contact <Contact <7881300774939646> <古巷青灯>>
+2022-01-28 00:58:43,944 - Contact - INFO - load contact <Contact <7881300778160446> <一只土豆>>
+2022-01-28 00:58:44,141 - PuppetService - DEBUG - receive message info <{'messageId': '1001574'}>
+2022-01-28 00:58:44,141 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='1001574', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2022-01-28 00:58:44,141 - Message - DEBUG - Message ready <Message <1001574> is not ready>
+2022-01-28 00:58:44,235 - Contact - INFO - load contact <Contact <7881300786081382> <CsH_Nican-701🍀>>
+2022-01-28 00:58:44,426 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <7881300749949818> <杨曦>	1>
+2022-01-28 00:58:44,427 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <7881300749949818> <杨曦>\t1']> <{}>
+2022-01-28 00:58:45,064 - Contact - INFO - load contact <Contact <7881300792024157> <🐴>>
+2022-01-28 00:58:45,367 - Contact - INFO - load contact <Contact <7881300792039146> <林儿响叮当>>
+2022-01-28 00:58:45,660 - Contact - INFO - load contact <Contact <7881300823069507> <Shenbo Xu 徐莘博>>
+2022-01-28 00:58:45,947 - Contact - INFO - load contact <Contact <7881300851054648> <婷儿>>
+2022-01-28 00:58:46,251 - Contact - INFO - load contact <Contact <7881300863128146> <Coky_ya>>
+2022-01-28 00:58:46,548 - Contact - INFO - load contact <Contact <7881300873069229> <🌟>>
+2022-01-28 00:58:46,837 - Contact - INFO - load contact <Contact <7881300874927827> <Shawn_Zhang>>
+2022-01-28 00:58:47,157 - Contact - INFO - load contact <Contact <7881300886049771> <邱楷中💥>>
+2022-01-28 00:58:47,463 - Contact - INFO - load contact <Contact <7881300909068527> <queenie>>
+2022-01-28 00:58:47,765 - Contact - INFO - load contact <Contact <7881300914986636> <神奇大师（若忘记回复戳一下感谢）>>
+2022-01-28 00:58:48,081 - Contact - INFO - load contact <Contact <7881300933031773> <Wildness>>
+2022-01-28 00:58:48,374 - Contact - INFO - load contact <Contact <7881300940980134> <星野兔🍇>>
+2022-01-28 00:58:48,660 - Contact - INFO - load contact <Contact <7881300997016895> <L>>
+2022-01-28 00:58:48,951 - Contact - INFO - load contact <Contact <7881301045949774> <Fluorine>>
+2022-01-28 00:58:49,262 - Contact - INFO - load contact <Contact <7881301046115479> <孙HY>>
+2022-01-28 00:58:49,546 - Contact - INFO - load contact <Contact <7881301064064720> <Tongxu>>
+2022-01-28 00:58:49,834 - Contact - INFO - load contact <Contact <7881301065105284> <ZCM>>
+2022-01-28 00:58:49,949 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-28 00:58:50,125 - Contact - INFO - load contact <Contact <7881301068097065> <泓井户>>
+2022-01-28 00:58:50,414 - Contact - INFO - load contact <Contact <7881301074109660> <Yiqing>>
+2022-01-28 00:58:50,700 - Contact - INFO - load contact <Contact <7881301078022742> <哈哈哈>>
+2022-01-28 00:58:50,988 - Contact - INFO - load contact <Contact <7881301118029487> <涂晗>>
+2022-01-28 00:58:51,275 - Contact - INFO - load contact <Contact <7881301124139087> <Qi🤔：>>
+2022-01-28 00:58:51,283 - Wechaty - ERROR - internal error <>
+2022-01-28 00:58:51,569 - Contact - INFO - load contact <Contact <7881301125116141> <睿🔆>>
+2022-01-28 00:58:51,876 - Contact - INFO - load contact <Contact <7881301160997226> <拉拉>>
+2022-01-28 00:58:52,167 - Contact - INFO - load contact <Contact <7881301179018340> <庄丁奕>>
+2022-01-28 00:58:52,458 - Contact - INFO - load contact <Contact <7881301192061745> <Yifan>>
+2022-01-28 00:58:52,744 - Contact - INFO - load contact <Contact <7881301207171319> <高悠然>>
+2022-01-28 00:58:53,031 - Contact - INFO - load contact <Contact <7881301209967426> <Source Skywalker>>
+2022-01-28 00:58:53,323 - Contact - INFO - load contact <Contact <7881301213998344> <谢禹>>
+2022-01-28 00:58:53,611 - Contact - INFO - load contact <Contact <7881301230952485> <tobytobytoby>>
+2022-01-28 00:58:53,897 - Contact - INFO - load contact <Contact <7881301235107218> <小马哥>>
+2022-01-28 00:58:54,184 - Contact - INFO - load contact <Contact <7881301247091886> <Ding Jin>>
+2022-01-28 00:58:54,474 - Contact - INFO - load contact <Contact <7881301249070416> <1234567>>
+2022-01-28 00:58:54,765 - Contact - INFO - load contact <Contact <7881301259048011> <Andy Wong>>
+2022-01-28 00:58:55,059 - Contact - INFO - load contact <Contact <7881301294028930> <江航>>
+2022-01-28 00:58:55,353 - Contact - INFO - load contact <Contact <7881301296008134> <刘帆>>
+2022-01-28 00:58:55,637 - Contact - INFO - load contact <Contact <7881301318166713> <童荻 Di Tong>>
+2022-01-28 00:58:55,921 - Contact - INFO - load contact <Contact <7881301324084112> <天天>>
+2022-01-28 00:58:56,218 - Contact - INFO - load contact <Contact <7881301326044472> <贾泽宇>>
+2022-01-28 00:58:56,315 - Message - DEBUG - Message ready <Message <1001577> is not ready>
+2022-01-28 00:58:56,512 - Contact - INFO - load contact <Contact <7881301327066885> <Heather L>>
+2022-01-28 00:58:56,798 - Contact - INFO - load contact <Contact <7881301345053033> <江山 Victor Cao>>
+2022-01-28 00:58:57,090 - Contact - INFO - load contact <Contact <7881301346039810> <FYZ>>
+2022-01-28 00:58:57,406 - Contact - INFO - load contact <Contact <7881301365953314> <哲>>
+2022-01-28 00:58:57,721 - Contact - INFO - load contact <Contact <7881301366922752> <Maggie>>
+2022-01-28 00:58:58,010 - Contact - INFO - load contact <Contact <7881301378931400> <王lucy>>
+2022-01-28 00:58:58,300 - Contact - INFO - load contact <Contact <7881301386136723> <Nemo>>
+2022-01-28 00:58:58,587 - Contact - INFO - load contact <Contact <7881301392043913> <c o c o h u>>
+2022-01-28 00:58:58,670 - PuppetService - DEBUG - receive message info <{'messageId': '1001579'}>
+2022-01-28 00:58:58,670 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='1001579', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2022-01-28 00:58:58,670 - Message - DEBUG - Message ready <Message <1001579> is not ready>
+2022-01-28 00:58:58,873 - Contact - INFO - load contact <Contact <7881301417047116> <Qiqi>>
+2022-01-28 00:58:58,956 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <7881300749949818> <杨曦>	2019>
+2022-01-28 00:58:58,957 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <7881300749949818> <杨曦>\t2019']> <{}>
+2022-01-28 00:58:59,602 - Contact - INFO - load contact <Contact <7881301442904428> <🐘>>
+2022-01-28 00:58:59,894 - Contact - INFO - load contact <Contact <7881301463977465> <Elvis>>
+2022-01-28 00:59:00,178 - Contact - INFO - load contact <Contact <7881301467151675> <〜嘟嘟嘟〜>>
+2022-01-28 00:59:00,463 - Contact - INFO - load contact <Contact <7881301468054953> <一只特立独行的猪>>
+2022-01-28 00:59:00,748 - Contact - INFO - load contact <Contact <7881301484060096> <你滴雪王>>
+2022-01-28 00:59:01,047 - Contact - INFO - load contact <Contact <7881301513921391> <Sheffield>>
+2022-01-28 00:59:01,339 - Contact - INFO - load contact <Contact <7881301516971358> <吼哈哎呦喂>>
+2022-01-28 00:59:01,626 - Contact - INFO - load contact <Contact <7881301517069360> <James>>
+2022-01-28 00:59:01,912 - Contact - INFO - load contact <Contact <7881301519196301> <Spike>>
+2022-01-28 00:59:02,195 - Contact - INFO - load contact <Contact <7881301519196304> <lll>>
+2022-01-28 00:59:02,485 - Contact - INFO - load contact <Contact <7881301519196306> <MITchitery>>
+2022-01-28 00:59:02,697 - PuppetService - DEBUG - receive message info <{'messageId': '1001584'}>
+2022-01-28 00:59:02,698 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='1001584', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2022-01-28 00:59:02,698 - Message - DEBUG - Message ready <Message <1001584> is not ready>
+2022-01-28 00:59:02,771 - Contact - INFO - load contact <Contact <7881301519196308> <无敌最俊朗>>
+2022-01-28 00:59:02,984 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <7881301304007272> <任之初>	test>
+2022-01-28 00:59:02,985 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <7881301304007272> <任之初>\ttest']> <{}>
+2022-01-28 00:59:03,694 - Contact - INFO - load contact <Contact <7881301519196310> <星语星愿>>
+2022-01-28 00:59:03,995 - Contact - INFO - load contact <Contact <7881301519196311> <段Sophia>>
+2022-01-28 00:59:04,280 - Contact - INFO - load contact <Contact <7881301519196312> <锦涛Clark>>
+2022-01-28 00:59:04,564 - Contact - INFO - load contact <Contact <7881301519196313> <The Fighter>>
+2022-01-28 00:59:04,850 - Contact - INFO - load contact <Contact <7881301519196314> <亦秋>>
+2022-01-28 00:59:05,136 - Contact - INFO - load contact <Contact <7881301519196316> <Yung-Sung Chuang>>
+2022-01-28 00:59:05,425 - Contact - INFO - load contact <Contact <7881301519196319> <崔羽霏>>
+2022-01-28 00:59:05,710 - Contact - INFO - load contact <Contact <7881301519196321> <Zzzz>>
+2022-01-28 00:59:05,998 - Contact - INFO - load contact <Contact <7881301519196325> <TheresaWDai✨>>
+2022-01-28 00:59:06,283 - Contact - INFO - load contact <Contact <7881301519196327> <蕭懿璿>>
+2022-01-28 00:59:06,572 - Contact - INFO - load contact <Contact <7881301519196328> <Junwen>>
+2022-01-28 00:59:06,859 - Contact - INFO - load contact <Contact <7881301519196331> <Winnie>>
+2022-01-28 00:59:07,145 - Contact - INFO - load contact <Contact <7881301519196334> <Nicholas Liu>>
+2022-01-28 00:59:07,429 - Contact - INFO - load contact <Contact <7881301523006426> <XD😆>>
+2022-01-28 00:59:07,717 - Contact - INFO - load contact <Contact <7881301523069026> <Cathy Chen>>
+2022-01-28 00:59:08,005 - Contact - INFO - load contact <Contact <7881301527070220> <森瀑林风>>
+2022-01-28 00:59:08,292 - Contact - INFO - load contact <Contact <7881301548973034> <Lunace>>
+2022-01-28 00:59:08,580 - Contact - INFO - load contact <Contact <7881301551070315> <Anthea 李怡辰>>
+2022-01-28 00:59:08,866 - Contact - INFO - load contact <Contact <7881301556106046> <挖一个洞>>
+2022-01-28 00:59:09,154 - Contact - INFO - load contact <Contact <7881301568909551> <Yuchong Pan>>
+2022-01-28 00:59:09,439 - Contact - INFO - load contact <Contact <7881301573990494> <Burning>>
+2022-01-28 00:59:09,724 - Contact - INFO - load contact <Contact <7881301589152182> <唐棣>>
+2022-01-28 00:59:09,954 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-28 00:59:10,011 - Contact - INFO - load contact <Contact <7881301593936225> <RachelQian>>
+2022-01-28 00:59:10,302 - Contact - INFO - load contact <Contact <7881301630905833> <Tian>>
+2022-01-28 00:59:10,323 - PuppetService - DEBUG - receive message info <{'messageId': '1001589'}>
+2022-01-28 00:59:10,324 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='1001589', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2022-01-28 00:59:10,324 - Message - DEBUG - Message ready <Message <1001589> is not ready>
+2022-01-28 00:59:10,595 - Contact - INFO - load contact <Contact <7881301636976776> <任智健>>
+2022-01-28 00:59:10,606 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <7881301304007272> <任之初>	DYZUVP>
+2022-01-28 00:59:10,607 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <7881301304007272> <任之初>\tDYZUVP']> <{}>
+2022-01-28 00:59:11,616 - Wechaty - ERROR - internal error <'NoneType' object has no attribute 'verification_code'>
+2022-01-28 00:59:11,616 - Contact - INFO - load contact <Contact <7881301645048487> <秦增益>>
+2022-01-28 00:59:11,901 - Contact - INFO - load contact <Contact <7881301670083577> <LBY>>
+2022-01-28 00:59:12,190 - Contact - INFO - load contact <Contact <7881301691949681> <Sherry Pear🍐>>
+2022-01-28 00:59:12,477 - Contact - INFO - load contact <Contact <7881301707181977> <Leroy王理睿>>
+2022-01-28 00:59:12,638 - PuppetService - DEBUG - receive message info <{'messageId': '1001592'}>
+2022-01-28 00:59:12,639 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='1001592', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2022-01-28 00:59:12,639 - Message - DEBUG - Message ready <Message <1001592> is not ready>
+2022-01-28 00:59:12,769 - Contact - INFO - load contact <Contact <7881301731094988> <王越>>
+2022-01-28 00:59:12,920 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <7881300749949818> <杨曦>	2020>
+2022-01-28 00:59:12,920 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <7881300749949818> <杨曦>\t2020']> <{}>
+2022-01-28 00:59:13,597 - Room - INFO - Room find <MIT 2020 新生群>
+2022-01-28 00:59:13,597 - Room - INFO - Room find_all <MIT 2020 新生群>
+2022-01-28 00:59:13,600 - Contact - INFO - load contact <Contact <7881301740157568> <Teban54>>
+2022-01-28 00:59:13,889 - Contact - INFO - load contact <Contact <7881301762062928> <->>
+2022-01-28 00:59:14,176 - Contact - INFO - load contact <Contact <7881301806059743> <🌈菜丸子>>
+2022-01-28 00:59:14,459 - Contact - INFO - load contact <Contact <7881301827063706> <唐昊>>
+2022-01-28 00:59:14,745 - Contact - INFO - load contact <Contact <7881301828023144> <p>>
+2022-01-28 00:59:14,759 - Contact - INFO - load contact <Contact <7881303485151991> <lililililililili>>
+2022-01-28 00:59:14,772 - Contact - INFO - load contact <Contact <1688854352317232> <JHJ>>
+2022-01-28 00:59:15,040 - Contact - INFO - load contact <Contact <7881301835041748> <rhyme🍰>>
+2022-01-28 00:59:15,056 - Contact - INFO - load contact <Contact <1688854352317235> <Yi Tian>>
+2022-01-28 00:59:15,322 - Contact - INFO - load contact <Contact <7881301838070614> <李>>
+2022-01-28 00:59:15,342 - Contact - INFO - load contact <Contact <1688854352317236> <杨竹天>>
+2022-01-28 00:59:15,608 - Contact - INFO - load contact <Contact <7881301875068429> <墨语生花>>
+2022-01-28 00:59:15,627 - Contact - INFO - load contact <Contact <1688854352317237> <王沛祺>>
+2022-01-28 00:59:15,896 - Contact - INFO - load contact <Contact <7881301877104178> <youuuuuuuup👧>>
+2022-01-28 00:59:15,915 - Contact - INFO - load contact <Contact <1688854352317238> <莫佰川>>
+2022-01-28 00:59:16,181 - Contact - INFO - load contact <Contact <7881301933005233> <Feng>>
+2022-01-28 00:59:16,217 - Contact - INFO - load contact <Contact <1688854352317239> <简德顺>>
+2022-01-28 00:59:16,466 - Contact - INFO - load contact <Contact <7881301966098032> <Charles da Wang>>
+2022-01-28 00:59:16,510 - Contact - INFO - load contact <Contact <1688854400283629> <Sunny🚁>>
+2022-01-28 00:59:16,753 - Contact - INFO - load contact <Contact <7881301968018139> <初一>>
+2022-01-28 00:59:16,797 - Contact - INFO - load contact <Contact <1688854400284361> <紧弱鱼>>
+2022-01-28 00:59:17,041 - Contact - INFO - load contact <Contact <7881301980032703> <韩卓然>>
+2022-01-28 00:59:17,085 - Contact - INFO - load contact <Contact <1688854400284699> <兔子>>
+2022-01-28 00:59:17,327 - Contact - INFO - load contact <Contact <7881301981186629> <明明如月>>
+2022-01-28 00:59:17,373 - Contact - INFO - load contact <Contact <1688854400285627> <->>
+2022-01-28 00:59:17,619 - Contact - INFO - load contact <Contact <7881301981186630> <🍁 Bright Ye>>
+2022-01-28 00:59:17,659 - Contact - INFO - load contact <Contact <1688854400285669> <彭靖 James>>
+2022-01-28 00:59:17,907 - Contact - INFO - load contact <Contact <7881301981186633> <Alice Jin>>
+2022-01-28 00:59:17,944 - Contact - INFO - load contact <Contact <1688854782285131> <小马哥>>
+2022-01-28 00:59:18,196 - Contact - INFO - load contact <Contact <7881301981186634> <吴宇晴>>
+2022-01-28 00:59:18,231 - Contact - INFO - load contact <Contact <1688855831292343> <李学枫>>
+2022-01-28 00:59:18,481 - Contact - INFO - load contact <Contact <7881301981186640> <Leo Liau>>
+2022-01-28 00:59:18,518 - Contact - INFO - load contact <Contact <1688856046303097> <一只土豆>>
+2022-01-28 00:59:18,767 - Contact - INFO - load contact <Contact <7881301985905891> <Shiwen>>
+2022-01-28 00:59:18,803 - Contact - INFO - load contact <Contact <1688856184307379> <高金>>
+2022-01-28 00:59:19,050 - Contact - INFO - load contact <Contact <7881301997964740> <北>>
+2022-01-28 00:59:19,094 - Contact - INFO - load contact <Contact <1688856184307381> <谭淞宸>>
+2022-01-28 00:59:19,335 - Contact - INFO - load contact <Contact <7881302000015876> <梦>>
+2022-01-28 00:59:19,380 - Contact - INFO - load contact <Contact <1688856184307383> <何婧怡🎼Candice>>
+2022-01-28 00:59:19,620 - Contact - INFO - load contact <Contact <7881302011079281> <楊宗祐>>
+2022-01-28 00:59:19,664 - Contact - INFO - load contact <Contact <1688856184307384> <梦非湮>>
+2022-01-28 00:59:19,905 - Contact - INFO - load contact <Contact <7881302029906420> <刘博宇>>
+2022-01-28 00:59:19,950 - Contact - INFO - load contact <Contact <1688857137296728> <Artie（Ping）>>
+2022-01-28 00:59:20,192 - Contact - INFO - load contact <Contact <7881302033951963> <Ethan>>
+2022-01-28 00:59:20,236 - Contact - INFO - load contact <Contact <1688857137296729> <Prometheus>>
+2022-01-28 00:59:20,479 - Contact - INFO - load contact <Contact <7881302041204008> <芭今天倒闭了吗>>
+2022-01-28 00:59:20,529 - Contact - INFO - load contact <Contact <1688857137296731> <林祺安>>
+2022-01-28 00:59:20,763 - Contact - INFO - load contact <Contact <7881302041204011> <Andrew>>
+2022-01-28 00:59:20,815 - Contact - INFO - load contact <Contact <1688857137296733> <Ruihan>>
+2022-01-28 00:59:21,048 - Contact - INFO - load contact <Contact <7881302041204012> <趙 辰>>
+2022-01-28 00:59:21,100 - Contact - INFO - load contact <Contact <1688857186299790> <NicoleInNz>>
+2022-01-28 00:59:21,101 - Wechaty - ERROR - internal error <'NoneType' object has no attribute 'ready'>
+2022-01-28 00:59:21,339 - Contact - INFO - load contact <Contact <7881302041204013> <hide in bush>>
+2022-01-28 00:59:21,626 - Contact - INFO - load contact <Contact <7881302041204019> <RL>>
+2022-01-28 00:59:21,909 - Contact - INFO - load contact <Contact <7881302041204022> <Richard Chen 🌽>>
+2022-01-28 00:59:22,195 - Contact - INFO - load contact <Contact <7881302041204023> <Yilin>>
+2022-01-28 00:59:22,483 - Contact - INFO - load contact <Contact <7881302041204027> <MITCSSA职业发展推广>>
+2022-01-28 00:59:22,785 - Contact - INFO - load contact <Contact <7881302041204029> <LJY>>
+2022-01-28 00:59:23,074 - Contact - INFO - load contact <Contact <7881302041204030> <刘诗清>>
+2022-01-28 00:59:23,360 - Contact - INFO - load contact <Contact <7881302041204031> <Elton Pan>>
+2022-01-28 00:59:23,646 - Contact - INFO - load contact <Contact <7881302041204033> <Shawn>>
+2022-01-28 00:59:23,929 - Contact - INFO - load contact <Contact <7881302041204034> <NyiuNiu (Max)>>
+2022-01-28 00:59:24,227 - Contact - INFO - load contact <Contact <7881302041204035> <人间失格>>
+2022-01-28 00:59:24,511 - Contact - INFO - load contact <Contact <7881302041204037> <栗子>>
+2022-01-28 00:59:24,798 - Contact - INFO - load contact <Contact <7881302041204041> <Menglong Guo>>
+2022-01-28 00:59:25,082 - Contact - INFO - load contact <Contact <7881302052059901> <张未>>
+2022-01-28 00:59:25,367 - Contact - INFO - load contact <Contact <7881302096026205> <Steven Wu>>
+2022-01-28 00:59:25,652 - Contact - INFO - load contact <Contact <7881302101164263> <Cathy Fang>>
+2022-01-28 00:59:25,942 - Contact - INFO - load contact <Contact <7881302109112651> <LING>>
+2022-01-28 00:59:26,232 - Contact - INFO - load contact <Contact <7881302116974868> <梦非湮>>
+2022-01-28 00:59:26,522 - Contact - INFO - load contact <Contact <7881302118993804> <远山长>>
+2022-01-28 00:59:26,805 - Contact - INFO - load contact <Contact <7881302130024099> <Xanvilla(闭关两天)>>
+2022-01-28 00:59:27,090 - Contact - INFO - load contact <Contact <7881302133910575> <Rynn>>
+2022-01-28 00:59:27,381 - Contact - INFO - load contact <Contact <7881302134031362> <Angel cc>>
+2022-01-28 00:59:27,678 - Contact - INFO - load contact <Contact <7881302146069638> <王沛祺>>
+2022-01-28 00:59:28,075 - Contact - INFO - load contact <Contact <7881302156032897> <Ruoming>>
+2022-01-28 00:59:28,373 - Contact - INFO - load contact <Contact <7881302158132210> <Alan👼>>
+2022-01-28 00:59:28,661 - Contact - INFO - load contact <Contact <7881302178027856> <李默>>
+2022-01-28 00:59:28,945 - Contact - INFO - load contact <Contact <7881302193001959> <黄涛>>
+2022-01-28 00:59:29,232 - Contact - INFO - load contact <Contact <7881302202136584> <Yi Tian>>
+2022-01-28 00:59:29,517 - Contact - INFO - load contact <Contact <7881302239056716> <李凌霄>>
+2022-01-28 00:59:29,916 - Contact - INFO - load contact <Contact <7881302244117609> <高金>>
+2022-01-28 00:59:29,925 - Wechaty - ERROR - internal error <>
+2022-01-28 00:59:29,956 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-28 00:59:30,202 - Contact - INFO - load contact <Contact <7881302262957398> <沉吟>>
+2022-01-28 00:59:30,489 - Contact - INFO - load contact <Contact <7881302263162624> <Jiayu💊>>
+2022-01-28 00:59:30,770 - Contact - INFO - load contact <Contact <7881302263162628> <金辰>>
+2022-01-28 00:59:31,055 - Contact - INFO - load contact <Contact <7881302263162631> <Ina Wu>>
+2022-01-28 00:59:31,337 - Contact - INFO - load contact <Contact <7881302263162633> <Ne Myo Han 曾偉傑>>
+2022-01-28 00:59:31,624 - Contact - INFO - load contact <Contact <7881302263162635> <ness>>
+2022-01-28 00:59:31,911 - Contact - INFO - load contact <Contact <7881302263162639> <Xiaochen Du>>
+2022-01-28 00:59:32,195 - Contact - INFO - load contact <Contact <7881302263162640> <Alan Chen>>
+2022-01-28 00:59:32,479 - Contact - INFO - load contact <Contact <7881302263162645> <Alex Chang>>
+2022-01-28 00:59:32,764 - Contact - INFO - load contact <Contact <7881302263162647> <HYZ>>
+2022-01-28 00:59:33,049 - Contact - INFO - load contact <Contact <7881302269948698> <🇨🇳Big 🌲>>
+2022-01-28 00:59:33,335 - Contact - INFO - load contact <Contact <7881302279052527> <Harry>>
+2022-01-28 00:59:33,620 - Contact - INFO - load contact <Contact <7881302327931643> <Young Xu>>
+2022-01-28 00:59:33,912 - Contact - INFO - load contact <Contact <7881302327945697> <Damon>>
+2022-01-28 00:59:33,991 - Wechaty - ERROR - internal error <>
+2022-01-28 00:59:34,203 - Contact - INFO - load contact <Contact <7881302328935533> <Jimmy_D>>
+2022-01-28 00:59:34,500 - Contact - INFO - load contact <Contact <7881302328944961> <乔植>>
+2022-01-28 00:59:34,788 - Contact - INFO - load contact <Contact <7881302338914315> <电动麦克斯>>
+2022-01-28 00:59:35,078 - Contact - INFO - load contact <Contact <7881302340965354> <Ruihan>>
+2022-01-28 00:59:35,362 - Contact - INFO - load contact <Contact <7881302349175479> <ZeroHertz>>
+2022-01-28 00:59:35,648 - Contact - INFO - load contact <Contact <7881302352013943> <☆ÐÖÑÑÄ★>>
+2022-01-28 00:59:35,933 - Contact - INFO - load contact <Contact <7881302354077309> <荻狄>>
+2022-01-28 00:59:36,217 - Contact - INFO - load contact <Contact <7881302376157085> <Horan>>
+2022-01-28 00:59:36,503 - Contact - INFO - load contact <Contact <7881302380977309> <Wendy Du🎡>>
+2022-01-28 00:59:36,791 - Contact - INFO - load contact <Contact <7881302393905839> <江夏>>
+2022-01-28 00:59:37,074 - Contact - INFO - load contact <Contact <7881302396994474> <lcl!>>
+2022-01-28 00:59:37,359 - Contact - INFO - load contact <Contact <7881302402950894> <路西西>>
+2022-01-28 00:59:37,643 - Contact - INFO - load contact <Contact <7881302405066872> <龚元>>
+2022-01-28 00:59:37,927 - Contact - INFO - load contact <Contact <7881302421042297> <W. Μango 🍋>>
+2022-01-28 00:59:38,212 - Contact - INFO - load contact <Contact <7881302429929443> <何婧怡🎼Candice>>
+2022-01-28 00:59:38,495 - Contact - INFO - load contact <Contact <7881302436945262> <慕昭诩>>
+2022-01-28 00:59:38,780 - Contact - INFO - load contact <Contact <7881302444024210> <Yutong>>
+2022-01-28 00:59:39,063 - Contact - INFO - load contact <Contact <7881302455117479> <C. Mao>>
+2022-01-28 00:59:39,346 - Contact - INFO - load contact <Contact <7881302471033938> <Peng>>
+2022-01-28 00:59:39,632 - Contact - INFO - load contact <Contact <7881302478025066> <杨竹天>>
+2022-01-28 00:59:39,915 - Contact - INFO - load contact <Contact <7881302480925376> <刘孟任>>
+2022-01-28 00:59:40,199 - Contact - INFO - load contact <Contact <7881302537993625> <Dean W.>>
+2022-01-28 00:59:40,486 - Contact - INFO - load contact <Contact <7881302572123964> <Chen>>
+2022-01-28 00:59:40,772 - Contact - INFO - load contact <Contact <7881302576970297> <xexlalalan>>
+2022-01-28 00:59:41,058 - Contact - INFO - load contact <Contact <7881302577048914> <MMMMalloy>>
+2022-01-28 00:59:41,347 - Contact - INFO - load contact <Contact <7881302578033182> <海绵>>
+2022-01-28 00:59:41,632 - Contact - INFO - load contact <Contact <7881302585069400> <王瀚锐Hank-MIT Quantum Sys>>
+2022-01-28 00:59:41,916 - Contact - INFO - load contact <Contact <7881302627069894> <肖恩君(Sean)>>
+2022-01-28 00:59:42,201 - Contact - INFO - load contact <Contact <7881302628035548> <XY😆>>
+2022-01-28 00:59:42,486 - Contact - INFO - load contact <Contact <7881302643095380> <Betty✨>>
+2022-01-28 00:59:42,772 - Contact - INFO - load contact <Contact <7881302646063716> <ticoʕ •ᴥ•ʔ🌸>>
+2022-01-28 00:59:43,062 - Contact - INFO - load contact <Contact <7881302699139593> <Matcha Gelato>>
+2022-01-28 00:59:43,347 - Contact - INFO - load contact <Contact <7881302700929172> <Zeyi Z>>
+2022-01-28 00:59:43,631 - Contact - INFO - load contact <Contact <7881302710061539> <张钊>>
+2022-01-28 00:59:43,914 - Contact - INFO - load contact <Contact <7881302714091049> <blabla.TT>>
+2022-01-28 00:59:44,200 - Contact - INFO - load contact <Contact <7881302717035806> <Ivy>>
+2022-01-28 00:59:44,486 - Contact - INFO - load contact <Contact <7881302723055839> <舒易简>>
+2022-01-28 00:59:44,771 - Contact - INFO - load contact <Contact <7881302738977480> <小虎>>
+2022-01-28 00:59:45,058 - Contact - INFO - load contact <Contact <7881302756068322> <陈思杰>>
+2022-01-28 00:59:45,343 - Contact - INFO - load contact <Contact <7881302758069751> <张墨林>>
+2022-01-28 00:59:45,631 - Contact - INFO - load contact <Contact <7881302773047818> <Xiaotong Zhang>>
+2022-01-28 00:59:45,917 - Contact - INFO - load contact <Contact <7881302812911376> <Edison王涛>>
+2022-01-28 00:59:46,202 - Contact - INFO - load contact <Contact <7881302813923022> <Zhuweiduo>>
+2022-01-28 00:59:46,487 - Contact - INFO - load contact <Contact <7881302824069056> <XF>>
+2022-01-28 00:59:46,782 - Contact - INFO - load contact <Contact <7881302825139308> <Tangsun>>
+2022-01-28 00:59:47,067 - Contact - INFO - load contact <Contact <7881302828089107> <Victoria-sha>>
+2022-01-28 00:59:47,359 - Contact - INFO - load contact <Contact <7881302831044878> <Mavis>>
+2022-01-28 00:59:47,648 - Contact - INFO - load contact <Contact <7881302832019261> <OOOOOOOL.>>
+2022-01-28 00:59:47,935 - Contact - INFO - load contact <Contact <7881302837909268> <Sean黄超鍪신신신>>
+2022-01-28 00:59:48,221 - Contact - INFO - load contact <Contact <7881302861982811> <🍼>>
+2022-01-28 00:59:48,511 - Contact - INFO - load contact <Contact <7881302892102207> <xzx>>
+2022-01-28 00:59:48,797 - Contact - INFO - load contact <Contact <7881302896052098> <Carllman>>
+2022-01-28 00:59:49,099 - Contact - INFO - load contact <Contact <7881302964977569> <赵浩宇>>
+2022-01-28 00:59:49,382 - Contact - INFO - load contact <Contact <7881302989937626> <陈涛>>
+2022-01-28 00:59:49,671 - Contact - INFO - load contact <Contact <7881302991926703> <根本停不下来>>
+2022-01-28 00:59:49,956 - Contact - INFO - load contact <Contact <7881303016052984> <Caroline.L>>
+2022-01-28 00:59:49,958 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-28 00:59:50,254 - Contact - INFO - load contact <Contact <7881303021068640> <George>>
+2022-01-28 00:59:50,540 - Contact - INFO - load contact <Contact <7881303042017613> <蔡钰洁>>
+2022-01-28 00:59:50,826 - Contact - INFO - load contact <Contact <7881303047069843> <fly1％>>
+2022-01-28 00:59:51,114 - Contact - INFO - load contact <Contact <7881303057070302> <Lingbo>>
+2022-01-28 00:59:51,401 - Contact - INFO - load contact <Contact <7881303071070489> <YuYang>>
+2022-01-28 00:59:51,685 - Contact - INFO - load contact <Contact <7881303084157527> <W>>
+2022-01-28 00:59:51,970 - Contact - INFO - load contact <Contact <7881303085986041> <Sherry🐷>>
+2022-01-28 00:59:52,260 - Contact - INFO - load contact <Contact <7881303112914801> <毛眺源>>
+2022-01-28 00:59:52,547 - Contact - INFO - load contact <Contact <7881303113951435> <TERRY.GE>>
+2022-01-28 00:59:52,830 - Contact - INFO - load contact <Contact <7881303114000375> <宋羿萱 Cassie>>
+2022-01-28 00:59:53,117 - Contact - INFO - load contact <Contact <7881303135926575> <👑 Annebaby💃🏻💃🏻>>
+2022-01-28 00:59:53,401 - Contact - INFO - load contact <Contact <7881303146173462> <周子杰>>
+2022-01-28 00:59:53,689 - Contact - INFO - load contact <Contact <7881303153123070> <Leo>>
+2022-01-28 00:59:53,976 - Contact - INFO - load contact <Contact <7881303157028620> <Katie Chen>>
+2022-01-28 00:59:54,267 - Contact - INFO - load contact <Contact <7881303165140314> <兜里全是糖🍬>>
+2022-01-28 00:59:54,551 - Contact - INFO - load contact <Contact <7881303169026341> <Prometheus>>
+2022-01-28 00:59:54,844 - Contact - INFO - load contact <Contact <7881303198069086> <BarryChen>>
+2022-01-28 00:59:55,126 - Contact - INFO - load contact <Contact <7881303201144922> <Veronica>>
+2022-01-28 00:59:55,413 - Contact - INFO - load contact <Contact <7881303212997738> <37>>
+2022-01-28 00:59:55,698 - Contact - INFO - load contact <Contact <7881303248140817> <武明睿>>
+2022-01-28 00:59:55,980 - Contact - INFO - load contact <Contact <7881303248151711> <👸🏻>>
+2022-01-28 00:59:56,267 - Contact - INFO - load contact <Contact <7881303273069607> <CX>>
+2022-01-28 00:59:56,553 - Contact - INFO - load contact <Contact <7881303298953435> <卢宸玥 chen>>
+2022-01-28 00:59:56,838 - Contact - INFO - load contact <Contact <7881303304942000> <左侃>>
+2022-01-28 00:59:57,121 - Contact - INFO - load contact <Contact <7881303333069188> <任婧仪RENA>>
+2022-01-28 00:59:57,406 - Contact - INFO - load contact <Contact <7881303347069256> <张凯清Kaiqing Zhang>>
+2022-01-28 00:59:57,693 - Contact - INFO - load contact <Contact <7881303357048490> <I>>
+2022-01-28 00:59:57,978 - Contact - INFO - load contact <Contact <7881303359062695> <Fish>>
+2022-01-28 00:59:58,262 - Contact - INFO - load contact <Contact <7881303362905862> <李赫奕>>
+2022-01-28 00:59:58,547 - Contact - INFO - load contact <Contact <7881303370064920> <Qihang Z>>
+2022-01-28 00:59:58,831 - Contact - INFO - load contact <Contact <7881303385061685> <Goosen>>
+2022-01-28 00:59:59,120 - Contact - INFO - load contact <Contact <7881303391034272> <李喵芸>>
+2022-01-28 00:59:59,415 - Contact - INFO - load contact <Contact <7881303399121973> <YYK>>
+2022-01-28 00:59:59,702 - Contact - INFO - load contact <Contact <7881303424085093> <彭泽宇>>
+2022-01-28 00:59:59,990 - Contact - INFO - load contact <Contact <7881303435039720> <王聪>>
+2022-01-28 01:00:00,276 - Contact - INFO - load contact <Contact <7881303460156070> <陈大树>>
+2022-01-28 01:00:00,562 - Contact - INFO - load contact <Contact <7881303463095304> <夏日骄阳>>
+2022-01-28 01:00:00,848 - Contact - INFO - load contact <Contact <7881303517910797> <曹雨晨>>
+2022-01-28 01:00:01,132 - Contact - INFO - load contact <Contact <7881303536951215> <🌠H.>>
+2022-01-28 01:00:01,419 - Contact - INFO - load contact <Contact <7881303539921540> <Carol>>
+2022-01-28 01:00:01,706 - Contact - INFO - load contact <Contact <7881303540058503> <Rocky Xie>>
+2022-01-28 01:00:01,991 - Contact - INFO - load contact <Contact <7881303552039774> <marcusduoxu>>
+2022-01-28 01:00:02,285 - Contact - INFO - load contact <Contact <7881303571933772> <耗子>>
+2022-01-28 01:00:02,579 - Contact - INFO - load contact <Contact <7881303572990413> <钱雨杰>>
+2022-01-28 01:00:02,866 - Contact - INFO - load contact <Contact <7881303586905294> <Ruicong@MIT>>
+2022-01-28 01:00:03,193 - Contact - INFO - load contact <Contact <7881303589919507> <悦然>>
+2022-01-28 01:00:03,479 - Contact - INFO - load contact <Contact <7881303592119838> <yvonneX🦄>>
+2022-01-28 01:00:03,764 - Contact - INFO - load contact <Contact <7881303596104278> <张君慧>>
+2022-01-28 01:00:04,049 - Contact - INFO - load contact <Contact <7881303630005916> <蛮头>>
+2022-01-28 01:00:04,337 - Contact - INFO - load contact <Contact <7881303632051228> <Cadd9>>
+2022-01-28 01:00:04,338 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <7881302941034685> <Annngel大珊珊>@👥 Room <R:10698114638420389 - MIT 2021 新生群>]	请问有人cross register了HBS的1180 Institutions Macroecon and Global Economy吗>
+2022-01-28 01:00:04,338 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <7881302941034685> <Annngel大珊珊>@👥 Room <R:10698114638420389 - MIT 2021 新生群>]\t请问有人cross register了HBS的1180 Institutions Macroecon and Global Economy吗']> <{}>
+2022-01-28 01:00:09,962 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-28 01:00:29,964 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-28 01:00:49,979 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-28 01:01:09,971 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-28 01:01:29,977 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-28 01:01:49,977 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-28 01:01:57,211 - PuppetService - DEBUG - receive message info <{'messageId': '1001595'}>
+2022-01-28 01:01:57,211 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='1001595', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2022-01-28 01:01:57,211 - Message - DEBUG - Message ready <Message <1001595> is not ready>
+2022-01-28 01:01:57,494 - Wechaty - INFO - receive message <Message#message_type_image[🗣 Contact <7881303374957429> <蓝萱>@👥 Room <R:10696049301045626 - 小助手重建项目组>]>
+2022-01-28 01:01:57,494 - Wechaty - DEBUG - emit() event <['Message#message_type_image[🗣 Contact <7881303374957429> <蓝萱>@👥 Room <R:10696049301045626 - 小助手重建项目组>]']> <{}>
+2022-01-28 01:02:06,365 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-28 01:02:06,373 - PuppetService - DEBUG - receive message info <{'messageId': '1001598'}>
+2022-01-28 01:02:06,373 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='1001598', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2022-01-28 01:02:06,373 - Message - DEBUG - Message ready <Message <1001598> is not ready>
+2022-01-28 01:02:06,657 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <7881303374957429> <蓝萱>@👥 Room <R:10696049301045626 - 小助手重建项目组>]	我也收到hh>
+2022-01-28 01:02:06,657 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <7881303374957429> <蓝萱>@👥 Room <R:10696049301045626 - 小助手重建项目组>]\t我也收到hh']> <{}>
+2022-01-28 01:02:12,732 - PuppetService - DEBUG - receive message info <{'messageId': '1001601'}>
+2022-01-28 01:02:12,732 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='1001601', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2022-01-28 01:02:12,733 - Message - DEBUG - Message ready <Message <1001601> is not ready>
+2022-01-28 01:02:13,020 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <7881301304007272> <任之初>@👥 Room <R:10696049301045626 - 小助手重建项目组>]	别慌，就骚扰了你俩>
+2022-01-28 01:02:13,020 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <7881301304007272> <任之初>@👥 Room <R:10696049301045626 - 小助手重建项目组>]\t别慌，就骚扰了你俩']> <{}>
+2022-01-28 01:02:27,608 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-28 01:02:27,616 - PuppetService - DEBUG - receive message info <{'messageId': '1001604'}>
+2022-01-28 01:02:27,616 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='1001604', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2022-01-28 01:02:27,616 - Message - DEBUG - Message ready <Message <1001604> is not ready>
+2022-01-28 01:02:27,919 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <7881301304007272> <任之初>@👥 Room <R:10696049301045626 - 小助手重建项目组>]	我和曦哥正在debug>
+2022-01-28 01:02:27,921 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <7881301304007272> <任之初>@👥 Room <R:10696049301045626 - 小助手重建项目组>]\t我和曦哥正在debug']> <{}>
+2022-01-28 01:02:48,741 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>
+2022-01-28 01:02:48,750 - PuppetService - DEBUG - receive message info <{'messageId': '1001607'}>
+2022-01-28 01:02:48,750 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='1001607', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2022-01-28 01:02:48,750 - Message - DEBUG - Message ready <Message <1001607> is not ready>
+2022-01-28 01:02:49,032 - Wechaty - INFO - receive message <Message#message_type_emoticon[🗣 Contact <7881303374957429> <蓝萱>@👥 Room <R:10696049301045626 - 小助手重建项目组>]>
+2022-01-28 01:02:49,033 - Wechaty - DEBUG - emit() event <['Message#message_type_emoticon[🗣 Contact <7881303374957429> <蓝萱>@👥 Room <R:10696049301045626 - 小助手重建项目组>]']> <{}>
+2022-01-28 01:03:09,995 - PuppetService - DEBUG - receive heartbeat info <{'data': '[object Object]', 'timeout': 120000}>

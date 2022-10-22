@@ -1,0 +1,525 @@
+2022-01-28 01:04:03,097 - Wechaty - INFO - init_puppet_event_bridge() <<wechaty_puppet_service.puppet.PuppetService object at 0x0000024895AB88C8>>
+2022-01-28 01:04:03,097 - Wechaty - INFO - initPuppetEventBridge() puppet.on(dong) (listenerCount:1) registering...
+2022-01-28 01:04:03,097 - Wechaty - INFO - initPuppetEventBridge() puppet.on(error) (listenerCount:1) registering...
+2022-01-28 01:04:03,097 - Wechaty - INFO - initPuppetEventBridge() puppet.on(heart-beat) (listenerCount:1) registering...
+2022-01-28 01:04:03,098 - Wechaty - INFO - initPuppetEventBridge() puppet.on(ready) (listenerCount:1) registering...
+2022-01-28 01:04:03,098 - Wechaty - INFO - receive <reset> event <%s>
+2022-01-28 01:04:03,098 - Wechaty - INFO - initPuppetEventBridge() puppet.on(reset) (listenerCount:0) registering...
+2022-01-28 01:04:03,099 - Wechaty - INFO - initPuppetEventBridge() puppet.on(friendship) (listenerCount:1) registering...
+2022-01-28 01:04:03,099 - Wechaty - INFO - initPuppetEventBridge() puppet.on(login) (listenerCount:1) registering...
+2022-01-28 01:04:03,100 - Wechaty - INFO - initPuppetEventBridge() puppet.on(logout) (listenerCount:1) registering...
+2022-01-28 01:04:03,100 - Wechaty - INFO - initPuppetEventBridge() puppet.on(message) (listenerCount:1) registering...
+2022-01-28 01:04:03,100 - Wechaty - INFO - initPuppetEventBridge() puppet.on(room-invite) (listenerCount:1) registering...
+2022-01-28 01:04:03,100 - Wechaty - INFO - initPuppetEventBridge() puppet.on(room-join) (listenerCount:1) registering...
+2022-01-28 01:04:03,100 - Wechaty - INFO - initPuppetEventBridge() puppet.on(room-leave) (listenerCount:1) registering...
+2022-01-28 01:04:03,100 - Wechaty - INFO - initPuppetEventBridge() puppet.on(room-topic) (listenerCount:1) registering...
+2022-01-28 01:04:03,100 - Wechaty - INFO - initPuppetEventBridge() puppet.on(scan) (listenerCount:1) registering...
+2022-01-28 01:04:03,100 - Wechaty - INFO - starting puppet ...
+2022-01-28 01:04:09,583 - wechaty.plugin - INFO - start the plugins ...
+2022-01-28 01:04:09,583 - wechaty.plugin - INFO - ============================starting web service========================
+2022-01-28 01:04:09,583 - wechaty.plugin - INFO - starting web service at endpoint: <{0.0.0.0}:{5000}>
+2022-01-28 01:04:09,585 - wechaty.plugin - INFO - Endpoint | Methods            | Websocket | Rule-------- | ------------------ | --------- | -----------------------static   | GET, HEAD, OPTIONS | False     | /static/<path:filename>
+2022-01-28 01:04:09,585 - wechaty.plugin - INFO - ============================web service has started========================
+2022-01-28 01:04:09,585 - Wechaty - INFO - receive <login> event <EventLoginPayload(contact_id='1688857088292734')>
+2022-01-28 01:04:09,909 - Contact - INFO - load contact <Contact <1688857088292734> <MITCSSA小助手>>
+2022-01-28 01:04:09,909 - Wechaty - DEBUG - emit() event <['Contact <1688857088292734> <MITCSSA小助手>']> <{}>
+2022-01-28 01:04:35,667 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='1001614', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2022-01-28 01:04:35,667 - Message - DEBUG - Message ready <Message <1001614> is not ready>
+2022-01-28 01:04:36,243 - Contact - INFO - load contact <Contact <7881300749949818> <杨曦>>
+2022-01-28 01:04:36,243 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <7881300749949818> <杨曦>	你好>
+2022-01-28 01:04:36,243 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <7881300749949818> <杨曦>\t你好']> <{}>
+2022-01-28 01:04:42,508 - Message - DEBUG - Message ready <Message <1001617> is not ready>
+2022-01-28 01:04:42,818 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='1001619', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2022-01-28 01:04:42,818 - Message - DEBUG - Message ready <Message <1001619> is not ready>
+2022-01-28 01:04:43,437 - Contact - INFO - load contact <Contact <7881301304007272> <任之初>>
+2022-01-28 01:04:43,438 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <7881301304007272> <任之初>	test>
+2022-01-28 01:04:43,438 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <7881301304007272> <任之初>\ttest']> <{}>
+2022-01-28 01:04:46,519 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='1001624', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2022-01-28 01:04:46,519 - Message - DEBUG - Message ready <Message <1001624> is not ready>
+2022-01-28 01:04:46,806 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <7881300749949818> <杨曦>	1>
+2022-01-28 01:04:46,806 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <7881300749949818> <杨曦>\t1']> <{}>
+2022-01-28 01:04:48,113 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='1001627', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2022-01-28 01:04:48,113 - Message - DEBUG - Message ready <Message <1001627> is not ready>
+2022-01-28 01:04:48,400 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <7881301304007272> <任之初>	test>
+2022-01-28 01:04:48,400 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <7881301304007272> <任之初>\ttest']> <{}>
+2022-01-28 01:04:49,432 - Message - DEBUG - Message ready <Message <1001622> is not ready>
+2022-01-28 01:04:52,412 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='1001634', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2022-01-28 01:04:52,412 - Message - DEBUG - Message ready <Message <1001634> is not ready>
+2022-01-28 01:04:52,711 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <7881301304007272> <任之初>	DYZUVP>
+2022-01-28 01:04:52,711 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <7881301304007272> <任之初>\tDYZUVP']> <{}>
+2022-01-28 01:04:53,645 - Wechaty - ERROR - internal error <'NoneType' object has no attribute 'verification_code'>
+2022-01-28 01:04:53,645 - Message - DEBUG - Message ready <Message <1001630> is not ready>
+2022-01-28 01:04:54,457 - Message - DEBUG - Message ready <Message <1001632> is not ready>
+2022-01-28 01:04:56,727 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='1001637', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2022-01-28 01:04:56,727 - Message - DEBUG - Message ready <Message <1001637> is not ready>
+2022-01-28 01:04:57,025 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <7881300749949818> <杨曦>	2021>
+2022-01-28 01:04:57,026 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <7881300749949818> <杨曦>\t2021']> <{}>
+2022-01-28 01:04:57,732 - Room - INFO - Room find <MIT 2021 新生群>
+2022-01-28 01:04:57,732 - Room - INFO - Room find_all <MIT 2021 新生群>
+2022-01-28 01:04:58,879 - Contact - INFO - load contact <Contact <1688854624299127> <蓝萱>>
+2022-01-28 01:04:58,904 - Contact - INFO - load contact <Contact <7881299450053331> <Z.J.Y.>>
+2022-01-28 01:04:58,905 - Contact - INFO - load contact <Contact <1688855236272749> <杨曦>>
+2022-01-28 01:04:58,906 - Accessory - WARNING - <Contact <1688855236272749> <杨曦>> set payload more than once
+2022-01-28 01:04:58,907 - Contact - INFO - load contact <Contact <1688855236272749> <杨曦>>
+2022-01-28 01:04:58,908 - Contact - INFO - load contact <Contact <1688854352317232> <JHJ>>
+2022-01-28 01:04:59,165 - Accessory - WARNING - <Contact <1688855236272749> <杨曦>> set payload more than once
+2022-01-28 01:04:59,165 - Contact - INFO - load contact <Contact <1688855236272749> <杨曦>>
+2022-01-28 01:04:59,191 - Contact - INFO - load contact <Contact <7881299455914055> <胡耘畅>>
+2022-01-28 01:04:59,192 - Contact - INFO - load contact <Contact <7881299911173780> <MITCSSA小助手>>
+2022-01-28 01:04:59,196 - Contact - INFO - load contact <Contact <1688857300301524> <任之初>>
+2022-01-28 01:04:59,197 - Contact - INFO - load contact <Contact <1688854352317235> <Yi Tian>>
+2022-01-28 01:04:59,448 - Accessory - WARNING - <Contact <1688857300301524> <任之初>> set payload more than once
+2022-01-28 01:04:59,449 - Contact - INFO - load contact <Contact <1688857300301524> <任之初>>
+2022-01-28 01:04:59,481 - Contact - INFO - load contact <Contact <7881299457068087> <乐斐>>
+2022-01-28 01:04:59,483 - Contact - INFO - load contact <Contact <7881303485151991> <lililililililili>>
+2022-01-28 01:04:59,484 - Contact - INFO - load contact <Contact <1688854352317236> <杨竹天>>
+2022-01-28 01:04:59,736 - Contact - INFO - load contact <Contact <7881303369944615> <徐磊-Lei>>
+2022-01-28 01:04:59,766 - Contact - INFO - load contact <Contact <7881299458030589> <ledo>>
+2022-01-28 01:04:59,770 - Contact - INFO - load contact <Contact <1688854352317237> <王沛祺>>
+2022-01-28 01:05:00,020 - Contact - INFO - load contact <Contact <7881303374957429> <蓝萱>>
+2022-01-28 01:05:00,055 - Contact - INFO - load contact <Contact <7881299466021712> <jla🍒>>
+2022-01-28 01:05:00,056 - Contact - INFO - load contact <Contact <1688854352317238> <莫佰川>>
+2022-01-28 01:05:00,341 - Contact - INFO - load contact <Contact <7881299498044345> <H>>
+2022-01-28 01:05:00,342 - Contact - INFO - load contact <Contact <1688854352317239> <简德顺>>
+2022-01-28 01:05:00,629 - Contact - INFO - load contact <Contact <7881299511978210> <近日点>>
+2022-01-28 01:05:00,630 - Contact - INFO - load contact <Contact <1688854400283629> <Sunny🚁>>
+2022-01-28 01:05:00,914 - Contact - INFO - load contact <Contact <7881299539016668> <蒋欣彦 Elaine^_^>>
+2022-01-28 01:05:00,921 - Contact - INFO - load contact <Contact <1688854400284361> <紧弱鱼>>
+2022-01-28 01:05:01,205 - Contact - INFO - load contact <Contact <7881299548997992> <小僧无天>>
+2022-01-28 01:05:01,212 - Contact - INFO - load contact <Contact <1688854400284699> <兔子>>
+2022-01-28 01:05:01,513 - Contact - INFO - load contact <Contact <7881299555921383> <JJJ>>
+2022-01-28 01:05:01,514 - Contact - INFO - load contact <Contact <1688854400285627> <->>
+2022-01-28 01:05:01,801 - Contact - INFO - load contact <Contact <7881299578091680> <糖小喵>>
+2022-01-28 01:05:01,804 - Contact - INFO - load contact <Contact <1688854400285669> <彭靖 James>>
+2022-01-28 01:05:02,097 - Contact - INFO - load contact <Contact <7881299578974326> <叶光昊>>
+2022-01-28 01:05:02,099 - Contact - INFO - load contact <Contact <1688854782285131> <小马哥>>
+2022-01-28 01:05:02,398 - Contact - INFO - load contact <Contact <7881299581909837> <ken>>
+2022-01-28 01:05:02,402 - Contact - INFO - load contact <Contact <1688855831292343> <李学枫>>
+2022-01-28 01:05:02,702 - Contact - INFO - load contact <Contact <7881299592953392> <戴鑫哲>>
+2022-01-28 01:05:02,705 - Contact - INFO - load contact <Contact <1688856046303097> <一只土豆>>
+2022-01-28 01:05:02,993 - Contact - INFO - load contact <Contact <7881299596907897> <Christy🦄>>
+2022-01-28 01:05:02,993 - Contact - INFO - load contact <Contact <1688856184307379> <高金>>
+2022-01-28 01:05:03,289 - Contact - INFO - load contact <Contact <7881299619069647> <马磊鑫>>
+2022-01-28 01:05:03,290 - Contact - INFO - load contact <Contact <1688856184307381> <谭淞宸>>
+2022-01-28 01:05:03,577 - Contact - INFO - load contact <Contact <7881299637053925> <Shuang>>
+2022-01-28 01:05:03,577 - Contact - INFO - load contact <Contact <1688856184307383> <何婧怡🎼Candice>>
+2022-01-28 01:05:03,864 - Contact - INFO - load contact <Contact <1688856184307384> <梦非湮>>
+2022-01-28 01:05:03,865 - Contact - INFO - load contact <Contact <7881299671036202> <Lia L>>
+2022-01-28 01:05:04,149 - Contact - INFO - load contact <Contact <1688857137296728> <Artie（Ping）>>
+2022-01-28 01:05:04,149 - Contact - INFO - load contact <Contact <7881299677926867> <田家昆>>
+2022-01-28 01:05:04,437 - Contact - INFO - load contact <Contact <1688857137296729> <Prometheus>>
+2022-01-28 01:05:04,438 - Contact - INFO - load contact <Contact <7881299692933015> <Guo>>
+2022-01-28 01:05:04,729 - Contact - INFO - load contact <Contact <1688857137296731> <林祺安>>
+2022-01-28 01:05:04,730 - Contact - INFO - load contact <Contact <7881299693127850> <Zoe🌟>>
+2022-01-28 01:05:05,021 - Contact - INFO - load contact <Contact <1688857137296733> <Ruihan>>
+2022-01-28 01:05:05,021 - Contact - INFO - load contact <Contact <7881299704173282> <DL>>
+2022-01-28 01:05:05,310 - Contact - INFO - load contact <Contact <1688857186299790> <NicoleInNz>>
+2022-01-28 01:05:05,310 - Contact - INFO - load contact <Contact <7881299755915921> <Cicada>>
+2022-01-28 01:05:05,596 - Contact - INFO - load contact <Contact <7881299789009300> <Sunshine>>
+2022-01-28 01:05:05,879 - Contact - INFO - load contact <Contact <7881299797013183> <syyy²>>
+2022-01-28 01:05:06,169 - Contact - INFO - load contact <Contact <7881299808975916> <阿洛>>
+2022-01-28 01:05:06,454 - Contact - INFO - load contact <Contact <7881299811145322> <明>>
+2022-01-28 01:05:06,745 - Contact - INFO - load contact <Contact <7881299827055519> <紧弱鱼>>
+2022-01-28 01:05:07,039 - Contact - INFO - load contact <Contact <7881299840946095> <Daniel Liu🌮🌊>>
+2022-01-28 01:05:07,326 - Contact - INFO - load contact <Contact <7881299842005725> <靡菲斯特>>
+2022-01-28 01:05:07,613 - Contact - INFO - load contact <Contact <7881299842067936> <Yuheng Yang>>
+2022-01-28 01:05:07,905 - Contact - INFO - load contact <Contact <7881299847941059> <0.0>>
+2022-01-28 01:05:08,196 - Contact - INFO - load contact <Contact <7881299863012319> <L.xxx>>
+2022-01-28 01:05:08,487 - Contact - INFO - load contact <Contact <7881299864915121> <都教授的小白兔>>
+2022-01-28 01:05:08,786 - Contact - INFO - load contact <Contact <7881299877916098> <Aseric>>
+2022-01-28 01:05:09,078 - Contact - INFO - load contact <Contact <7881299879919565> <Zhen>>
+2022-01-28 01:05:09,373 - Contact - INFO - load contact <Contact <7881299888069734> <简德顺>>
+2022-01-28 01:05:09,652 - Wechaty - INFO - receive <ready> event <EventReadyPayload(data='ready')>
+2022-01-28 01:05:09,652 - Wechaty - DEBUG - emit() event <["EventReadyPayload(data='ready')"]> <{}>
+2022-01-28 01:05:09,677 - Contact - INFO - load contact <Contact <7881299896019968> <风神>>
+2022-01-28 01:05:09,973 - Contact - INFO - load contact <Contact <7881299908056551> <Alex安凯迪>>
+2022-01-28 01:05:10,257 - Contact - INFO - load contact <Contact <7881299924016743> <J.>>
+2022-01-28 01:05:10,549 - Contact - INFO - load contact <Contact <7881299928938653> <XH>>
+2022-01-28 01:05:10,859 - Contact - INFO - load contact <Contact <7881299938930641> <Jim 肇极>>
+2022-01-28 01:05:11,166 - Contact - INFO - load contact <Contact <7881299972107708> <谭淞宸>>
+2022-01-28 01:05:11,465 - Contact - INFO - load contact <Contact <7881299976069023> <H.Wang>>
+2022-01-28 01:05:11,755 - Contact - INFO - load contact <Contact <7881299977977041> <Wentao Weng>>
+2022-01-28 01:05:12,040 - Contact - INFO - load contact <Contact <7881299987152225> <罗鸿胤>>
+2022-01-28 01:05:12,327 - Contact - INFO - load contact <Contact <7881300005939997> <王重阳>>
+2022-01-28 01:05:12,620 - Contact - INFO - load contact <Contact <7881300024036898> <lp>>
+2022-01-28 01:05:12,916 - Contact - INFO - load contact <Contact <7881300026193591> <C.Z>>
+2022-01-28 01:05:13,206 - Contact - INFO - load contact <Contact <7881300055029932> <Ms. 瑾>>
+2022-01-28 01:05:13,495 - Contact - INFO - load contact <Contact <7881300097087846> <Fang>>
+2022-01-28 01:05:13,796 - Contact - INFO - load contact <Contact <7881300109055680> <wilson>>
+2022-01-28 01:05:14,096 - Contact - INFO - load contact <Contact <7881300117055561> <跳跳鱼>>
+2022-01-28 01:05:14,384 - Contact - INFO - load contact <Contact <7881300118900691> <阿里>>
+2022-01-28 01:05:14,682 - Contact - INFO - load contact <Contact <7881300132927783> <明眸皓齿>>
+2022-01-28 01:05:14,981 - Contact - INFO - load contact <Contact <7881300144076059> <栾继政>>
+2022-01-28 01:05:15,277 - Contact - INFO - load contact <Contact <7881300184060383> <ZQ>>
+2022-01-28 01:05:15,561 - Contact - INFO - load contact <Contact <7881300185040162> <佳佳佩>>
+2022-01-28 01:05:15,847 - Contact - INFO - load contact <Contact <7881300186063092> <CJM>>
+2022-01-28 01:05:16,135 - Contact - INFO - load contact <Contact <7881300193989210> <Artie（Ping）>>
+2022-01-28 01:05:16,421 - Contact - INFO - load contact <Contact <7881300205974734> <郭婧Kristy>>
+2022-01-28 01:05:16,708 - Contact - INFO - load contact <Contact <7881300210922917> <larry>>
+2022-01-28 01:05:16,994 - Contact - INFO - load contact <Contact <7881300223977803> <wwwwwww:)>>
+2022-01-28 01:05:17,302 - Contact - INFO - load contact <Contact <7881300263101446> <ZY. Shu>>
+2022-01-28 01:05:17,593 - Contact - INFO - load contact <Contact <7881300267069105> <玛利亚 Yu>>
+2022-01-28 01:05:17,883 - Contact - INFO - load contact <Contact <7881300282069970> <特斯拉的电灯泡>>
+2022-01-28 01:05:18,173 - Contact - INFO - load contact <Contact <7881300290059595> <睡神>>
+2022-01-28 01:05:18,460 - Contact - INFO - load contact <Contact <7881300298027208> <陈博远>>
+2022-01-28 01:05:18,744 - Contact - INFO - load contact <Contact <7881300306112652> <Lily 刘心铭>>
+2022-01-28 01:05:19,031 - Contact - INFO - load contact <Contact <7881300310961850> <刘嘉耿 Jiageng>>
+2022-01-28 01:05:19,321 - Contact - INFO - load contact <Contact <7881300353947383> <李大娃>>
+2022-01-28 01:05:19,609 - Contact - INFO - load contact <Contact <7881300378004198> <北风>>
+2022-01-28 01:05:19,893 - Contact - INFO - load contact <Contact <7881300385926632> <Lyou Yeung⁶>>
+2022-01-28 01:05:20,179 - Contact - INFO - load contact <Contact <7881300386950639> <Eric>>
+2022-01-28 01:05:20,471 - Contact - INFO - load contact <Contact <7881300390020458> <Tree>>
+2022-01-28 01:05:20,763 - Contact - INFO - load contact <Contact <7881300390971625> <Y1N9X8>>
+2022-01-28 01:05:21,051 - Contact - INFO - load contact <Contact <7881300403049425> <Lica哩咔>>
+2022-01-28 01:05:21,342 - Contact - INFO - load contact <Contact <7881300408085902> <JaSoN>>
+2022-01-28 01:05:21,626 - Contact - INFO - load contact <Contact <7881300412075783> <Naike耐克>>
+2022-01-28 01:05:21,917 - Contact - INFO - load contact <Contact <7881300420092072> <蜜柚>>
+2022-01-28 01:05:22,204 - Contact - INFO - load contact <Contact <7881300468981086> <JHJ>>
+2022-01-28 01:05:22,490 - Contact - INFO - load contact <Contact <7881300505130378> <南希希>>
+2022-01-28 01:05:22,777 - Contact - INFO - load contact <Contact <7881300516108304> <JunE Zhu>>
+2022-01-28 01:05:23,062 - Contact - INFO - load contact <Contact <7881300520912162> <海中树>>
+2022-01-28 01:05:23,347 - Contact - INFO - load contact <Contact <7881300523110493> < 三体>>
+2022-01-28 01:05:23,632 - Contact - INFO - load contact <Contact <7881300527932423> <Jessieeeee®>>
+2022-01-28 01:05:23,922 - Contact - INFO - load contact <Contact <7881300538064498> <· J ·>>
+2022-01-28 01:05:24,212 - Contact - INFO - load contact <Contact <7881300550052833> <Flora雨霏霏🌸>>
+2022-01-28 01:05:24,507 - Contact - INFO - load contact <Contact <7881300554164056> <硬梆梆的快乐熊猫>>
+2022-01-28 01:05:24,796 - Contact - INFO - load contact <Contact <7881300562057498> <Andy B.>>
+2022-01-28 01:05:25,081 - Contact - INFO - load contact <Contact <7881300584994119> <Coco>>
+2022-01-28 01:05:25,366 - Contact - INFO - load contact <Contact <7881300612053391> <卢苇>>
+2022-01-28 01:05:25,652 - Contact - INFO - load contact <Contact <7881300615008967> <Camus>>
+2022-01-28 01:05:25,941 - Contact - INFO - load contact <Contact <7881300618069492> <张碧莹>>
+2022-01-28 01:05:26,230 - Contact - INFO - load contact <Contact <7881300635109414> <贺之阳 Sunny>>
+2022-01-28 01:05:26,522 - Contact - INFO - load contact <Contact <7881300639977048> <Yu>>
+2022-01-28 01:05:26,809 - Contact - INFO - load contact <Contact <7881300642046432> <雍政祺 Charles>>
+2022-01-28 01:05:27,098 - Contact - INFO - load contact <Contact <7881300644992365> <Resplendent GAGA>>
+2022-01-28 01:05:27,385 - Contact - INFO - load contact <Contact <7881300704039839> <陈敏之>>
+2022-01-28 01:05:27,676 - Contact - INFO - load contact <Contact <7881300734059939> <C.W>>
+2022-01-28 01:05:27,976 - Contact - INFO - load contact <Contact <7881300741898370> <×>>
+2022-01-28 01:05:28,261 - Contact - INFO - load contact <Contact <7881300761070462> <Toru>>
+2022-01-28 01:05:28,547 - Contact - INFO - load contact <Contact <7881300766042742> <菜园小饼>>
+2022-01-28 01:05:28,842 - Contact - INFO - load contact <Contact <7881300767099266> <傅颢硕>>
+2022-01-28 01:05:29,135 - Contact - INFO - load contact <Contact <7881300774939646> <古巷青灯>>
+2022-01-28 01:05:29,429 - Contact - INFO - load contact <Contact <7881300778160446> <一只土豆>>
+2022-01-28 01:05:29,719 - Contact - INFO - load contact <Contact <7881300786081382> <CsH_Nican-701🍀>>
+2022-01-28 01:05:30,014 - Contact - INFO - load contact <Contact <7881300792024157> <🐴>>
+2022-01-28 01:05:30,325 - Contact - INFO - load contact <Contact <7881300792039146> <林儿响叮当>>
+2022-01-28 01:05:30,625 - Contact - INFO - load contact <Contact <7881300823069507> <Shenbo Xu 徐莘博>>
+2022-01-28 01:05:30,917 - Contact - INFO - load contact <Contact <7881300851054648> <婷儿>>
+2022-01-28 01:05:31,208 - Contact - INFO - load contact <Contact <7881300863128146> <Coky_ya>>
+2022-01-28 01:05:31,503 - Contact - INFO - load contact <Contact <7881300873069229> <🌟>>
+2022-01-28 01:05:31,793 - Contact - INFO - load contact <Contact <7881300874927827> <Shawn_Zhang>>
+2022-01-28 01:05:32,080 - Contact - INFO - load contact <Contact <7881300886049771> <邱楷中💥>>
+2022-01-28 01:05:32,377 - Contact - INFO - load contact <Contact <7881300909068527> <queenie>>
+2022-01-28 01:05:32,662 - Contact - INFO - load contact <Contact <7881300914986636> <神奇大师（若忘记回复戳一下感谢）>>
+2022-01-28 01:05:32,952 - Contact - INFO - load contact <Contact <7881300933031773> <Wildness>>
+2022-01-28 01:05:33,236 - Contact - INFO - load contact <Contact <7881300940980134> <星野兔🍇>>
+2022-01-28 01:05:33,523 - Contact - INFO - load contact <Contact <7881300997016895> <L>>
+2022-01-28 01:05:33,809 - Contact - INFO - load contact <Contact <7881301045949774> <Fluorine>>
+2022-01-28 01:05:34,095 - Contact - INFO - load contact <Contact <7881301046115479> <孙HY>>
+2022-01-28 01:05:34,382 - Contact - INFO - load contact <Contact <7881301064064720> <Tongxu>>
+2022-01-28 01:05:34,667 - Contact - INFO - load contact <Contact <7881301065105284> <ZCM>>
+2022-01-28 01:05:34,957 - Contact - INFO - load contact <Contact <7881301068097065> <泓井户>>
+2022-01-28 01:05:35,245 - Contact - INFO - load contact <Contact <7881301074109660> <Yiqing>>
+2022-01-28 01:05:35,529 - Contact - INFO - load contact <Contact <7881301078022742> <哈哈哈>>
+2022-01-28 01:05:35,817 - Contact - INFO - load contact <Contact <7881301118029487> <涂晗>>
+2022-01-28 01:05:36,106 - Contact - INFO - load contact <Contact <7881301124139087> <Qi🤔：>>
+2022-01-28 01:05:36,392 - Contact - INFO - load contact <Contact <7881301125116141> <睿🔆>>
+2022-01-28 01:05:36,681 - Contact - INFO - load contact <Contact <7881301160997226> <拉拉>>
+2022-01-28 01:05:36,969 - Contact - INFO - load contact <Contact <7881301179018340> <庄丁奕>>
+2022-01-28 01:05:37,259 - Contact - INFO - load contact <Contact <7881301192061745> <Yifan>>
+2022-01-28 01:05:37,550 - Contact - INFO - load contact <Contact <7881301207171319> <高悠然>>
+2022-01-28 01:05:37,835 - Contact - INFO - load contact <Contact <7881301209967426> <Source Skywalker>>
+2022-01-28 01:05:38,120 - Contact - INFO - load contact <Contact <7881301213998344> <谢禹>>
+2022-01-28 01:05:38,416 - Contact - INFO - load contact <Contact <7881301230952485> <tobytobytoby>>
+2022-01-28 01:05:38,705 - Contact - INFO - load contact <Contact <7881301235107218> <小马哥>>
+2022-01-28 01:05:38,991 - Contact - INFO - load contact <Contact <7881301247091886> <Ding Jin>>
+2022-01-28 01:05:39,280 - Contact - INFO - load contact <Contact <7881301249070416> <1234567>>
+2022-01-28 01:05:39,577 - Contact - INFO - load contact <Contact <7881301259048011> <Andy Wong>>
+2022-01-28 01:05:39,865 - Contact - INFO - load contact <Contact <7881301294028930> <江航>>
+2022-01-28 01:05:40,157 - Contact - INFO - load contact <Contact <7881301296008134> <刘帆>>
+2022-01-28 01:05:40,450 - Contact - INFO - load contact <Contact <7881301318166713> <童荻 Di Tong>>
+2022-01-28 01:05:40,742 - Contact - INFO - load contact <Contact <7881301324084112> <天天>>
+2022-01-28 01:05:41,028 - Contact - INFO - load contact <Contact <7881301326044472> <贾泽宇>>
+2022-01-28 01:05:41,318 - Contact - INFO - load contact <Contact <7881301327066885> <Heather L>>
+2022-01-28 01:05:41,603 - Contact - INFO - load contact <Contact <7881301345053033> <江山 Victor Cao>>
+2022-01-28 01:05:41,889 - Contact - INFO - load contact <Contact <7881301346039810> <FYZ>>
+2022-01-28 01:05:42,178 - Contact - INFO - load contact <Contact <7881301365953314> <哲>>
+2022-01-28 01:05:42,465 - Contact - INFO - load contact <Contact <7881301366922752> <Maggie>>
+2022-01-28 01:05:42,754 - Contact - INFO - load contact <Contact <7881301378931400> <王lucy>>
+2022-01-28 01:05:43,038 - Contact - INFO - load contact <Contact <7881301386136723> <Nemo>>
+2022-01-28 01:05:43,325 - Contact - INFO - load contact <Contact <7881301392043913> <c o c o h u>>
+2022-01-28 01:05:43,614 - Contact - INFO - load contact <Contact <7881301417047116> <Qiqi>>
+2022-01-28 01:05:43,899 - Contact - INFO - load contact <Contact <7881301442904428> <🐘>>
+2022-01-28 01:05:44,183 - Contact - INFO - load contact <Contact <7881301463977465> <Elvis>>
+2022-01-28 01:05:44,470 - Contact - INFO - load contact <Contact <7881301467151675> <〜嘟嘟嘟〜>>
+2022-01-28 01:05:44,758 - Contact - INFO - load contact <Contact <7881301468054953> <一只特立独行的猪>>
+2022-01-28 01:05:45,045 - Contact - INFO - load contact <Contact <7881301484060096> <你滴雪王>>
+2022-01-28 01:05:45,332 - Contact - INFO - load contact <Contact <7881301513921391> <Sheffield>>
+2022-01-28 01:05:45,617 - Contact - INFO - load contact <Contact <7881301516971358> <吼哈哎呦喂>>
+2022-01-28 01:05:45,902 - Contact - INFO - load contact <Contact <7881301517069360> <James>>
+2022-01-28 01:05:46,191 - Contact - INFO - load contact <Contact <7881301519196301> <Spike>>
+2022-01-28 01:05:46,486 - Contact - INFO - load contact <Contact <7881301519196304> <lll>>
+2022-01-28 01:05:46,773 - Contact - INFO - load contact <Contact <7881301519196306> <MITchitery>>
+2022-01-28 01:05:47,062 - Contact - INFO - load contact <Contact <7881301519196308> <无敌最俊朗>>
+2022-01-28 01:05:47,347 - Contact - INFO - load contact <Contact <7881301519196310> <星语星愿>>
+2022-01-28 01:05:47,632 - Contact - INFO - load contact <Contact <7881301519196311> <段Sophia>>
+2022-01-28 01:05:47,922 - Contact - INFO - load contact <Contact <7881301519196312> <锦涛Clark>>
+2022-01-28 01:05:48,207 - Contact - INFO - load contact <Contact <7881301519196313> <The Fighter>>
+2022-01-28 01:05:48,495 - Contact - INFO - load contact <Contact <7881301519196314> <亦秋>>
+2022-01-28 01:05:48,781 - Contact - INFO - load contact <Contact <7881301519196316> <Yung-Sung Chuang>>
+2022-01-28 01:05:49,070 - Contact - INFO - load contact <Contact <7881301519196319> <崔羽霏>>
+2022-01-28 01:05:49,355 - Contact - INFO - load contact <Contact <7881301519196321> <Zzzz>>
+2022-01-28 01:05:49,641 - Contact - INFO - load contact <Contact <7881301519196325> <TheresaWDai✨>>
+2022-01-28 01:05:49,926 - Contact - INFO - load contact <Contact <7881301519196327> <蕭懿璿>>
+2022-01-28 01:05:50,212 - Contact - INFO - load contact <Contact <7881301519196328> <Junwen>>
+2022-01-28 01:05:50,499 - Contact - INFO - load contact <Contact <7881301519196331> <Winnie>>
+2022-01-28 01:05:50,785 - Contact - INFO - load contact <Contact <7881301519196334> <Nicholas Liu>>
+2022-01-28 01:05:51,071 - Contact - INFO - load contact <Contact <7881301523006426> <XD😆>>
+2022-01-28 01:05:51,355 - Contact - INFO - load contact <Contact <7881301523069026> <Cathy Chen>>
+2022-01-28 01:05:51,641 - Contact - INFO - load contact <Contact <7881301527070220> <森瀑林风>>
+2022-01-28 01:05:51,928 - Contact - INFO - load contact <Contact <7881301548973034> <Lunace>>
+2022-01-28 01:05:52,216 - Contact - INFO - load contact <Contact <7881301551070315> <Anthea 李怡辰>>
+2022-01-28 01:05:52,508 - Contact - INFO - load contact <Contact <7881301556106046> <挖一个洞>>
+2022-01-28 01:05:52,797 - Contact - INFO - load contact <Contact <7881301568909551> <Yuchong Pan>>
+2022-01-28 01:05:53,083 - Contact - INFO - load contact <Contact <7881301573990494> <Burning>>
+2022-01-28 01:05:53,368 - Contact - INFO - load contact <Contact <7881301589152182> <唐棣>>
+2022-01-28 01:05:53,652 - Contact - INFO - load contact <Contact <7881301593936225> <RachelQian>>
+2022-01-28 01:05:53,940 - Contact - INFO - load contact <Contact <7881301630905833> <Tian>>
+2022-01-28 01:05:54,232 - Contact - INFO - load contact <Contact <7881301636976776> <任智健>>
+2022-01-28 01:05:54,523 - Contact - INFO - load contact <Contact <7881301645048487> <秦增益>>
+2022-01-28 01:05:54,807 - Contact - INFO - load contact <Contact <7881301670083577> <LBY>>
+2022-01-28 01:05:55,092 - Contact - INFO - load contact <Contact <7881301691949681> <Sherry Pear🍐>>
+2022-01-28 01:05:55,384 - Contact - INFO - load contact <Contact <7881301707181977> <Leroy王理睿>>
+2022-01-28 01:05:55,668 - Contact - INFO - load contact <Contact <7881301731094988> <王越>>
+2022-01-28 01:05:55,965 - Contact - INFO - load contact <Contact <7881301740157568> <Teban54>>
+2022-01-28 01:05:56,251 - Contact - INFO - load contact <Contact <7881301762062928> <->>
+2022-01-28 01:05:56,537 - Contact - INFO - load contact <Contact <7881301806059743> <🌈菜丸子>>
+2022-01-28 01:05:56,823 - Contact - INFO - load contact <Contact <7881301827063706> <唐昊>>
+2022-01-28 01:05:57,110 - Contact - INFO - load contact <Contact <7881301828023144> <p>>
+2022-01-28 01:05:57,395 - Contact - INFO - load contact <Contact <7881301835041748> <rhyme🍰>>
+2022-01-28 01:05:57,679 - Contact - INFO - load contact <Contact <7881301838070614> <李>>
+2022-01-28 01:05:57,968 - Contact - INFO - load contact <Contact <7881301875068429> <墨语生花>>
+2022-01-28 01:05:58,254 - Contact - INFO - load contact <Contact <7881301877104178> <youuuuuuuup👧>>
+2022-01-28 01:05:58,541 - Contact - INFO - load contact <Contact <7881301933005233> <Feng>>
+2022-01-28 01:05:58,824 - Contact - INFO - load contact <Contact <7881301966098032> <Charles da Wang>>
+2022-01-28 01:05:59,110 - Contact - INFO - load contact <Contact <7881301968018139> <初一>>
+2022-01-28 01:05:59,403 - Contact - INFO - load contact <Contact <7881301980032703> <韩卓然>>
+2022-01-28 01:05:59,689 - Contact - INFO - load contact <Contact <7881301981186629> <明明如月>>
+2022-01-28 01:05:59,978 - Contact - INFO - load contact <Contact <7881301981186630> <🍁 Bright Ye>>
+2022-01-28 01:06:00,266 - Contact - INFO - load contact <Contact <7881301981186633> <Alice Jin>>
+2022-01-28 01:06:00,574 - Contact - INFO - load contact <Contact <7881301981186634> <吴宇晴>>
+2022-01-28 01:06:00,860 - Contact - INFO - load contact <Contact <7881301981186640> <Leo Liau>>
+2022-01-28 01:06:01,145 - Contact - INFO - load contact <Contact <7881301985905891> <Shiwen>>
+2022-01-28 01:06:01,431 - Contact - INFO - load contact <Contact <7881301997964740> <北>>
+2022-01-28 01:06:01,717 - Contact - INFO - load contact <Contact <7881302000015876> <梦>>
+2022-01-28 01:06:02,002 - Contact - INFO - load contact <Contact <7881302011079281> <楊宗祐>>
+2022-01-28 01:06:02,291 - Contact - INFO - load contact <Contact <7881302029906420> <刘博宇>>
+2022-01-28 01:06:02,573 - Contact - INFO - load contact <Contact <7881302033951963> <Ethan>>
+2022-01-28 01:06:02,859 - Contact - INFO - load contact <Contact <7881302041204008> <芭今天倒闭了吗>>
+2022-01-28 01:06:03,143 - Contact - INFO - load contact <Contact <7881302041204011> <Andrew>>
+2022-01-28 01:06:03,429 - Contact - INFO - load contact <Contact <7881302041204012> <趙 辰>>
+2022-01-28 01:06:03,714 - Contact - INFO - load contact <Contact <7881302041204013> <hide in bush>>
+2022-01-28 01:06:04,001 - Contact - INFO - load contact <Contact <7881302041204019> <RL>>
+2022-01-28 01:06:04,282 - Contact - INFO - load contact <Contact <7881302041204022> <Richard Chen 🌽>>
+2022-01-28 01:06:04,567 - Contact - INFO - load contact <Contact <7881302041204023> <Yilin>>
+2022-01-28 01:06:04,853 - Contact - INFO - load contact <Contact <7881302041204027> <MITCSSA职业发展推广>>
+2022-01-28 01:06:05,140 - Contact - INFO - load contact <Contact <7881302041204029> <LJY>>
+2022-01-28 01:06:05,426 - Contact - INFO - load contact <Contact <7881302041204030> <刘诗清>>
+2022-01-28 01:06:05,710 - Contact - INFO - load contact <Contact <7881302041204031> <Elton Pan>>
+2022-01-28 01:06:05,999 - Contact - INFO - load contact <Contact <7881302041204033> <Shawn>>
+2022-01-28 01:06:06,292 - Contact - INFO - load contact <Contact <7881302041204034> <NyiuNiu (Max)>>
+2022-01-28 01:06:06,578 - Contact - INFO - load contact <Contact <7881302041204035> <人间失格>>
+2022-01-28 01:06:06,864 - Contact - INFO - load contact <Contact <7881302041204037> <栗子>>
+2022-01-28 01:06:07,149 - Contact - INFO - load contact <Contact <7881302041204041> <Menglong Guo>>
+2022-01-28 01:06:07,440 - Contact - INFO - load contact <Contact <7881302052059901> <张未>>
+2022-01-28 01:06:07,733 - Contact - INFO - load contact <Contact <7881302096026205> <Steven Wu>>
+2022-01-28 01:06:08,016 - Contact - INFO - load contact <Contact <7881302101164263> <Cathy Fang>>
+2022-01-28 01:06:08,304 - Contact - INFO - load contact <Contact <7881302109112651> <LING>>
+2022-01-28 01:06:08,604 - Contact - INFO - load contact <Contact <7881302116974868> <梦非湮>>
+2022-01-28 01:06:08,896 - Contact - INFO - load contact <Contact <7881302118993804> <远山长>>
+2022-01-28 01:06:09,184 - Contact - INFO - load contact <Contact <7881302130024099> <Xanvilla(闭关两天)>>
+2022-01-28 01:06:09,472 - Contact - INFO - load contact <Contact <7881302133910575> <Rynn>>
+2022-01-28 01:06:09,759 - Contact - INFO - load contact <Contact <7881302134031362> <Angel cc>>
+2022-01-28 01:06:10,049 - Contact - INFO - load contact <Contact <7881302146069638> <王沛祺>>
+2022-01-28 01:06:10,334 - Contact - INFO - load contact <Contact <7881302156032897> <Ruoming>>
+2022-01-28 01:06:10,621 - Contact - INFO - load contact <Contact <7881302158132210> <Alan👼>>
+2022-01-28 01:06:10,906 - Contact - INFO - load contact <Contact <7881302178027856> <李默>>
+2022-01-28 01:06:11,202 - Contact - INFO - load contact <Contact <7881302193001959> <黄涛>>
+2022-01-28 01:06:11,502 - Contact - INFO - load contact <Contact <7881302202136584> <Yi Tian>>
+2022-01-28 01:06:11,786 - Contact - INFO - load contact <Contact <7881302239056716> <李凌霄>>
+2022-01-28 01:06:12,072 - Contact - INFO - load contact <Contact <7881302244117609> <高金>>
+2022-01-28 01:06:12,358 - Contact - INFO - load contact <Contact <7881302262957398> <沉吟>>
+2022-01-28 01:06:12,648 - Contact - INFO - load contact <Contact <7881302263162624> <Jiayu💊>>
+2022-01-28 01:06:12,932 - Contact - INFO - load contact <Contact <7881302263162628> <金辰>>
+2022-01-28 01:06:13,217 - Contact - INFO - load contact <Contact <7881302263162631> <Ina Wu>>
+2022-01-28 01:06:13,504 - Contact - INFO - load contact <Contact <7881302263162633> <Ne Myo Han 曾偉傑>>
+2022-01-28 01:06:13,792 - Contact - INFO - load contact <Contact <7881302263162635> <ness>>
+2022-01-28 01:06:14,082 - Contact - INFO - load contact <Contact <7881302263162639> <Xiaochen Du>>
+2022-01-28 01:06:14,133 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='1001640', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2022-01-28 01:06:14,133 - Message - DEBUG - Message ready <Message <1001640> is not ready>
+2022-01-28 01:06:14,367 - Contact - INFO - load contact <Contact <7881302263162640> <Alan Chen>>
+2022-01-28 01:06:14,416 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <7881301304007272> <任之初>	zc_ren@mit.edu>
+2022-01-28 01:06:14,416 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <7881301304007272> <任之初>\tzc_ren@mit.edu']> <{}>
+2022-01-28 01:06:16,806 - Contact - INFO - load contact <Contact <7881302263162645> <Alex Chang>>
+2022-01-28 01:06:17,097 - Contact - INFO - load contact <Contact <7881302263162647> <HYZ>>
+2022-01-28 01:06:17,385 - Contact - INFO - load contact <Contact <7881302269948698> <🇨🇳Big 🌲>>
+2022-01-28 01:06:17,671 - Contact - INFO - load contact <Contact <7881302279052527> <Harry>>
+2022-01-28 01:06:17,973 - Contact - INFO - load contact <Contact <7881302327931643> <Young Xu>>
+2022-01-28 01:06:18,259 - Contact - INFO - load contact <Contact <7881302327945697> <Damon>>
+2022-01-28 01:06:18,544 - Contact - INFO - load contact <Contact <7881302328935533> <Jimmy_D>>
+2022-01-28 01:06:18,831 - Contact - INFO - load contact <Contact <7881302328944961> <乔植>>
+2022-01-28 01:06:19,122 - Contact - INFO - load contact <Contact <7881302338914315> <电动麦克斯>>
+2022-01-28 01:06:19,410 - Contact - INFO - load contact <Contact <7881302340965354> <Ruihan>>
+2022-01-28 01:06:19,696 - Contact - INFO - load contact <Contact <7881302349175479> <ZeroHertz>>
+2022-01-28 01:06:19,984 - Contact - INFO - load contact <Contact <7881302352013943> <☆ÐÖÑÑÄ★>>
+2022-01-28 01:06:20,271 - Contact - INFO - load contact <Contact <7881302354077309> <荻狄>>
+2022-01-28 01:06:20,557 - Contact - INFO - load contact <Contact <7881302376157085> <Horan>>
+2022-01-28 01:06:20,845 - Contact - INFO - load contact <Contact <7881302380977309> <Wendy Du🎡>>
+2022-01-28 01:06:21,129 - Contact - INFO - load contact <Contact <7881302393905839> <江夏>>
+2022-01-28 01:06:21,415 - Contact - INFO - load contact <Contact <7881302396994474> <lcl!>>
+2022-01-28 01:06:21,702 - Contact - INFO - load contact <Contact <7881302402950894> <路西西>>
+2022-01-28 01:06:21,986 - Contact - INFO - load contact <Contact <7881302405066872> <龚元>>
+2022-01-28 01:06:22,272 - Contact - INFO - load contact <Contact <7881302421042297> <W. Μango 🍋>>
+2022-01-28 01:06:22,559 - Contact - INFO - load contact <Contact <7881302429929443> <何婧怡🎼Candice>>
+2022-01-28 01:06:22,849 - Contact - INFO - load contact <Contact <7881302436945262> <慕昭诩>>
+2022-01-28 01:06:23,142 - Contact - INFO - load contact <Contact <7881302444024210> <Yutong>>
+2022-01-28 01:06:23,430 - Contact - INFO - load contact <Contact <7881302455117479> <C. Mao>>
+2022-01-28 01:06:23,714 - Contact - INFO - load contact <Contact <7881302471033938> <Peng>>
+2022-01-28 01:06:24,006 - Contact - INFO - load contact <Contact <7881302478025066> <杨竹天>>
+2022-01-28 01:06:24,292 - Contact - INFO - load contact <Contact <7881302480925376> <刘孟任>>
+2022-01-28 01:06:24,582 - Contact - INFO - load contact <Contact <7881302537993625> <Dean W.>>
+2022-01-28 01:06:24,873 - Contact - INFO - load contact <Contact <7881302572123964> <Chen>>
+2022-01-28 01:06:25,159 - Contact - INFO - load contact <Contact <7881302576970297> <xexlalalan>>
+2022-01-28 01:06:25,445 - Contact - INFO - load contact <Contact <7881302577048914> <MMMMalloy>>
+2022-01-28 01:06:25,727 - Contact - INFO - load contact <Contact <7881302578033182> <海绵>>
+2022-01-28 01:06:26,025 - Contact - INFO - load contact <Contact <7881302585069400> <王瀚锐Hank-MIT Quantum Sys>>
+2022-01-28 01:06:26,311 - Contact - INFO - load contact <Contact <7881302627069894> <肖恩君(Sean)>>
+2022-01-28 01:06:26,600 - Contact - INFO - load contact <Contact <7881302628035548> <XY😆>>
+2022-01-28 01:06:26,884 - Contact - INFO - load contact <Contact <7881302643095380> <Betty✨>>
+2022-01-28 01:06:27,173 - Contact - INFO - load contact <Contact <7881302646063716> <ticoʕ •ᴥ•ʔ🌸>>
+2022-01-28 01:06:27,461 - Contact - INFO - load contact <Contact <7881302699139593> <Matcha Gelato>>
+2022-01-28 01:06:27,747 - Contact - INFO - load contact <Contact <7881302700929172> <Zeyi Z>>
+2022-01-28 01:06:28,032 - Contact - INFO - load contact <Contact <7881302710061539> <张钊>>
+2022-01-28 01:06:28,319 - Contact - INFO - load contact <Contact <7881302714091049> <blabla.TT>>
+2022-01-28 01:06:28,606 - Contact - INFO - load contact <Contact <7881302717035806> <Ivy>>
+2022-01-28 01:06:28,893 - Contact - INFO - load contact <Contact <7881302723055839> <舒易简>>
+2022-01-28 01:06:29,179 - Contact - INFO - load contact <Contact <7881302738977480> <小虎>>
+2022-01-28 01:06:29,465 - Contact - INFO - load contact <Contact <7881302756068322> <陈思杰>>
+2022-01-28 01:06:29,750 - Contact - INFO - load contact <Contact <7881302758069751> <张墨林>>
+2022-01-28 01:06:30,034 - Contact - INFO - load contact <Contact <7881302773047818> <Xiaotong Zhang>>
+2022-01-28 01:06:30,318 - Contact - INFO - load contact <Contact <7881302812911376> <Edison王涛>>
+2022-01-28 01:06:30,606 - Contact - INFO - load contact <Contact <7881302813923022> <Zhuweiduo>>
+2022-01-28 01:06:30,889 - Contact - INFO - load contact <Contact <7881302824069056> <XF>>
+2022-01-28 01:06:31,176 - Contact - INFO - load contact <Contact <7881302825139308> <Tangsun>>
+2022-01-28 01:06:31,459 - Contact - INFO - load contact <Contact <7881302828089107> <Victoria-sha>>
+2022-01-28 01:06:31,745 - Contact - INFO - load contact <Contact <7881302831044878> <Mavis>>
+2022-01-28 01:06:32,031 - Contact - INFO - load contact <Contact <7881302832019261> <OOOOOOOL.>>
+2022-01-28 01:06:32,319 - Contact - INFO - load contact <Contact <7881302837909268> <Sean黄超鍪신신신>>
+2022-01-28 01:06:32,603 - Contact - INFO - load contact <Contact <7881302861982811> <🍼>>
+2022-01-28 01:06:32,890 - Contact - INFO - load contact <Contact <7881302892102207> <xzx>>
+2022-01-28 01:06:32,913 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='1001645', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2022-01-28 01:06:32,913 - Message - DEBUG - Message ready <Message <1001645> is not ready>
+2022-01-28 01:06:33,175 - Contact - INFO - load contact <Contact <7881302896052098> <Carllman>>
+2022-01-28 01:06:33,195 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <7881301304007272> <任之初>	FRWJWK>
+2022-01-28 01:06:33,196 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <7881301304007272> <任之初>\tFRWJWK']> <{}>
+2022-01-28 01:06:34,193 - Contact - INFO - load contact <Contact <7881302941034685> <Annngel大珊珊>>
+2022-01-28 01:06:34,483 - Contact - INFO - load contact <Contact <7881302964977569> <赵浩宇>>
+2022-01-28 01:06:34,767 - Contact - INFO - load contact <Contact <7881302989937626> <陈涛>>
+2022-01-28 01:06:35,060 - Contact - INFO - load contact <Contact <7881302991926703> <根本停不下来>>
+2022-01-28 01:06:35,346 - Contact - INFO - load contact <Contact <7881303016052984> <Caroline.L>>
+2022-01-28 01:06:35,633 - Contact - INFO - load contact <Contact <7881303021068640> <George>>
+2022-01-28 01:06:35,920 - Contact - INFO - load contact <Contact <7881303042017613> <蔡钰洁>>
+2022-01-28 01:06:36,204 - Contact - INFO - load contact <Contact <7881303047069843> <fly1％>>
+2022-01-28 01:06:36,491 - Contact - INFO - load contact <Contact <7881303057070302> <Lingbo>>
+2022-01-28 01:06:36,778 - Contact - INFO - load contact <Contact <7881303071070489> <YuYang>>
+2022-01-28 01:06:37,063 - Contact - INFO - load contact <Contact <7881303084157527> <W>>
+2022-01-28 01:06:37,351 - Contact - INFO - load contact <Contact <7881303085986041> <Sherry🐷>>
+2022-01-28 01:06:37,643 - Contact - INFO - load contact <Contact <7881303112914801> <毛眺源>>
+2022-01-28 01:06:37,940 - Contact - INFO - load contact <Contact <7881303113951435> <TERRY.GE>>
+2022-01-28 01:06:38,223 - Contact - INFO - load contact <Contact <7881303114000375> <宋羿萱 Cassie>>
+2022-01-28 01:06:38,509 - Contact - INFO - load contact <Contact <7881303135926575> <👑 Annebaby💃🏻💃🏻>>
+2022-01-28 01:06:38,796 - Contact - INFO - load contact <Contact <7881303146173462> <周子杰>>
+2022-01-28 01:06:39,082 - Contact - INFO - load contact <Contact <7881303153123070> <Leo>>
+2022-01-28 01:06:39,391 - Contact - INFO - load contact <Contact <7881303157028620> <Katie Chen>>
+2022-01-28 01:06:39,674 - Contact - INFO - load contact <Contact <7881303165140314> <兜里全是糖🍬>>
+2022-01-28 01:06:39,962 - Contact - INFO - load contact <Contact <7881303169026341> <Prometheus>>
+2022-01-28 01:06:40,251 - Contact - INFO - load contact <Contact <7881303198069086> <BarryChen>>
+2022-01-28 01:06:40,539 - Contact - INFO - load contact <Contact <7881303201144922> <Veronica>>
+2022-01-28 01:06:40,823 - Contact - INFO - load contact <Contact <7881303212997738> <37>>
+2022-01-28 01:06:41,110 - Contact - INFO - load contact <Contact <7881303248140817> <武明睿>>
+2022-01-28 01:06:41,397 - Contact - INFO - load contact <Contact <7881303248151711> <👸🏻>>
+2022-01-28 01:06:41,684 - Contact - INFO - load contact <Contact <7881303273069607> <CX>>
+2022-01-28 01:06:41,969 - Contact - INFO - load contact <Contact <7881303298953435> <卢宸玥 chen>>
+2022-01-28 01:06:42,259 - Contact - INFO - load contact <Contact <7881303304942000> <左侃>>
+2022-01-28 01:06:42,546 - Contact - INFO - load contact <Contact <7881303333069188> <任婧仪RENA>>
+2022-01-28 01:06:42,842 - Contact - INFO - load contact <Contact <7881303347069256> <张凯清Kaiqing Zhang>>
+2022-01-28 01:06:43,129 - Contact - INFO - load contact <Contact <7881303357048490> <I>>
+2022-01-28 01:06:43,415 - Contact - INFO - load contact <Contact <7881303359062695> <Fish>>
+2022-01-28 01:06:43,703 - Contact - INFO - load contact <Contact <7881303362905862> <李赫奕>>
+2022-01-28 01:06:43,991 - Contact - INFO - load contact <Contact <7881303370064920> <Qihang Z>>
+2022-01-28 01:06:44,276 - Contact - INFO - load contact <Contact <7881303385061685> <Goosen>>
+2022-01-28 01:06:44,561 - Contact - INFO - load contact <Contact <7881303391034272> <李喵芸>>
+2022-01-28 01:06:44,847 - Contact - INFO - load contact <Contact <7881303399121973> <YYK>>
+2022-01-28 01:06:45,130 - Contact - INFO - load contact <Contact <7881303424085093> <彭泽宇>>
+2022-01-28 01:06:45,416 - Contact - INFO - load contact <Contact <7881303435039720> <王聪>>
+2022-01-28 01:06:45,706 - Contact - INFO - load contact <Contact <7881303460156070> <陈大树>>
+2022-01-28 01:06:45,992 - Contact - INFO - load contact <Contact <7881303463095304> <夏日骄阳>>
+2022-01-28 01:06:46,278 - Contact - INFO - load contact <Contact <7881303517910797> <曹雨晨>>
+2022-01-28 01:06:46,563 - Contact - INFO - load contact <Contact <7881303536951215> <🌠H.>>
+2022-01-28 01:06:46,848 - Contact - INFO - load contact <Contact <7881303539921540> <Carol>>
+2022-01-28 01:06:47,107 - Wechaty - ERROR - internal error <>
+2022-01-28 01:06:47,140 - Contact - INFO - load contact <Contact <7881303540058503> <Rocky Xie>>
+2022-01-28 01:06:47,430 - Contact - INFO - load contact <Contact <7881303552039774> <marcusduoxu>>
+2022-01-28 01:06:47,715 - Contact - INFO - load contact <Contact <7881303571933772> <耗子>>
+2022-01-28 01:06:48,001 - Contact - INFO - load contact <Contact <7881303572990413> <钱雨杰>>
+2022-01-28 01:06:48,291 - Contact - INFO - load contact <Contact <7881303586905294> <Ruicong@MIT>>
+2022-01-28 01:06:48,579 - Contact - INFO - load contact <Contact <7881303589919507> <悦然>>
+2022-01-28 01:06:48,863 - Contact - INFO - load contact <Contact <7881303592119838> <yvonneX🦄>>
+2022-01-28 01:06:49,149 - Contact - INFO - load contact <Contact <7881303596104278> <张君慧>>
+2022-01-28 01:06:49,435 - Contact - INFO - load contact <Contact <7881303630005916> <蛮头>>
+2022-01-28 01:06:49,722 - Contact - INFO - load contact <Contact <7881303632051228> <Cadd9>>
+2022-01-28 01:06:52,134 - Message - DEBUG - Message ready <Message <1001648> is not ready>
+2022-01-28 01:07:20,309 - Wechaty - ERROR - internal error <>
+2022-01-28 01:07:32,379 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='1001652', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2022-01-28 01:07:32,379 - Message - DEBUG - Message ready <Message <1001652> is not ready>
+2022-01-28 01:07:32,676 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <7881300749949818> <杨曦>	2021>
+2022-01-28 01:07:32,677 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <7881300749949818> <杨曦>\t2021']> <{}>
+2022-01-28 01:07:33,316 - Room - INFO - Room find <MIT 2021 新生群>
+2022-01-28 01:07:33,316 - Room - INFO - Room find_all <MIT 2021 新生群>
+2022-01-28 01:07:39,215 - Message - DEBUG - Message ready <Message <1001655> is not ready>
+2022-01-28 01:07:43,874 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='1001657', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2022-01-28 01:07:43,874 - Message - DEBUG - Message ready <Message <1001657> is not ready>
+2022-01-28 01:07:44,159 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <7881300749949818> <杨曦>	2020>
+2022-01-28 01:07:44,159 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <7881300749949818> <杨曦>\t2020']> <{}>
+2022-01-28 01:07:44,817 - Room - INFO - Room find <MIT 2020 新生群>
+2022-01-28 01:07:44,817 - Room - INFO - Room find_all <MIT 2020 新生群>
+2022-01-28 01:07:45,105 - Wechaty - ERROR - internal error <'NoneType' object has no attribute 'ready'>
+2022-01-28 01:08:00,575 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='1001660', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2022-01-28 01:08:00,575 - Message - DEBUG - Message ready <Message <1001660> is not ready>
+2022-01-28 01:08:00,863 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <7881300749949818> <杨曦>	2020>
+2022-01-28 01:08:00,863 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <7881300749949818> <杨曦>\t2020']> <{}>
+2022-01-28 01:08:01,513 - Room - INFO - Room find <MIT 2020 新生群>
+2022-01-28 01:08:01,513 - Room - INFO - Room find_all <MIT 2020 新生群>
+2022-01-28 01:08:01,806 - Wechaty - ERROR - internal error <'NoneType' object has no attribute 'ready'>
+2022-01-28 01:09:20,527 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='1001663', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2022-01-28 01:09:20,527 - Message - DEBUG - Message ready <Message <1001663> is not ready>
+2022-01-28 01:09:20,814 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <7881300749949818> <杨曦>	2020>
+2022-01-28 01:09:20,814 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <7881300749949818> <杨曦>\t2020']> <{}>
+2022-01-28 01:09:21,449 - Room - INFO - Room find <MIT 2020 新生群>
+2022-01-28 01:09:21,449 - Room - INFO - Room find_all <MIT 2020 新生群>
+2022-01-28 01:09:21,749 - Wechaty - ERROR - internal error <'NoneType' object has no attribute 'ready'>
+2022-01-28 01:09:39,584 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='1001666', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2022-01-28 01:09:39,586 - Message - DEBUG - Message ready <Message <1001666> is not ready>
+2022-01-28 01:09:39,871 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <7881300749949818> <杨曦>	2019>
+2022-01-28 01:09:39,872 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <7881300749949818> <杨曦>\t2019']> <{}>
+2022-01-28 01:09:45,855 - Message - DEBUG - Message ready <Message <1001669> is not ready>
+2022-01-28 01:11:13,273 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='1001673', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2022-01-28 01:11:13,273 - Message - DEBUG - Message ready <Message <1001673> is not ready>
+2022-01-28 01:11:13,572 - Wechaty - INFO - receive message <Message#message_type_text[🗣 Contact <7881301304007272> <任之初>	2020>
+2022-01-28 01:11:13,572 - Wechaty - DEBUG - emit() event <['Message#message_type_text[🗣 Contact <7881301304007272> <任之初>\t2020']> <{}>
+2022-01-28 01:11:14,227 - Room - INFO - Room find <MIT 2020 新生群>
+2022-01-28 01:11:14,227 - Room - INFO - Room find_all <MIT 2020 新生群>
+2022-01-28 01:11:35,439 - Contact - INFO - load contact <Contact <7881299464971499> <7881299464971499>>
+2022-01-28 01:11:56,062 - Contact - INFO - load contact <Contact <7881299492966720> <7881299492966720>>
+2022-01-28 01:12:16,369 - Contact - INFO - load contact <Contact <7881299493023271> <7881299493023271>>
+2022-01-28 01:12:36,670 - Contact - INFO - load contact <Contact <7881299514093137> <7881299514093137>>
