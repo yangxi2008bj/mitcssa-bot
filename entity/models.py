@@ -74,8 +74,7 @@ class Decoder(Base):
     created_at = Column(DateTime, server_default=func.now(), onupdate=func.now(), comment='创建时间')
     updated_at = Column(DateTime, server_default=func.now(), onupdate=func.now(), comment='创建时间')
 
-    def __init__(self, id, wId, goal_type, gender, birth_year_min, birth_year_max, school, accp_program, hobby, hobby_match):
-        self.id = id
+    def __init__(self, wId, goal_type, gender, birth_year_min, birth_year_max, school, accp_program, hobby, hobby_match):
         self.wId = wId
         self.goal_type = goal_type
         self.gender = gender
@@ -93,6 +92,7 @@ class Encoder(Base):
     wId = Column(String(100))
     goal_type = Column(Integer)
     gender = Column(Integer)
+    gender_filter = Column(Integer)
     birth_year = Column(Integer)
     school = Column(String(20))
     program = Column(String(20))
@@ -102,14 +102,45 @@ class Encoder(Base):
     created_at = Column(DateTime, server_default=func.now(), onupdate=func.now(), comment='创建时间')
     updated_at = Column(DateTime, server_default=func.now(), onupdate=func.now(), comment='创建时间')
 
-    def __init__(self, id, wId, goal_type, gender, birth_year, school, program, hobby, max_decoding, contact_pref):
-        self.id = id
+    def __init__(self, wId, goal_type, gender, gender_filter, birth_year, school, program, hobby, max_decoding, contact_pref):
         self.wId = wId
         self.goal_type = goal_type
         self.gender = gender
+        self.gender_filter = gender_filter
         self.birth_year = birth_year
         self.school = school
         self.program = program
         self.hobby = hobby
         self.max_decoding = max_decoding
         self.contact_pref = contact_pref
+
+
+class Limit(Base):
+    __tablename__ = 'im_wx_game_limitation'
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    wId = Column(String(30))
+    is_encoder = Column(Integer)
+    is_decoder = Column(Integer)
+    decoder_count = Column(Integer)
+    created_at = Column(DateTime, server_default=func.now(), onupdate=func.now(), comment='创建时间')
+    updated_at = Column(DateTime, server_default=func.now(), onupdate=func.now(), comment='创建时间')
+
+    def __init__(self, wId, is_encoder, is_decoder, decoder_count):
+        self.wId = wId
+        self.is_encoder = is_encoder
+        self.is_decoder = is_decoder
+        self.decoder_count = decoder_count
+
+
+class Matching(Base):
+    __tablename__ = 'im_wx_game_matching'
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    wId_encoder = Column(String(30))
+    wId_decoder = Column(String(30))
+    created_at = Column(DateTime, server_default=func.now(), onupdate=func.now(), comment='创建时间')
+    updated_at = Column(DateTime, server_default=func.now(), onupdate=func.now(), comment='创建时间')
+
+    def __init__(self, wId_encoder, wId_decoder):
+        self.wId_encoder = wId_encoder
+        self.wId_decoder = wId_decoder
+

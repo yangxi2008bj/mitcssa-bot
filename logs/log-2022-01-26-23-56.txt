@@ -1,2 +1,0 @@
-2022-01-26 23:56:56,880 - Room - INFO - Room find <Course 7 - Biology>
-2022-01-26 23:56:56,880 - Room - INFO - Room find_all <Course 7 - Biology>

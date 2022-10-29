@@ -4,6 +4,7 @@ from wechaty import Contact, Friendship, Room, RoomInvitation
 from wechaty.user import Message
 from wechaty import Wechaty
 from config import constants
+from common import en_decoder_game
 from common import message_process
 
 
@@ -16,13 +17,16 @@ class MyBot(Wechaty):
         wechat_id = talker.contact_id
         text = msg.text()
         room = msg.room()
+
         if room is None:
             indicator, value = message_process.get_text_auto_reply(text)
             is_first_talk = not message_process.has_message(wechat_id)
             message_process.store_message(wechat_id, msg.message_type(), text)
+
             if message_process.is_verified(wechat_id):
                 await talker.ready()
                 if indicator == 0 or indicator == 1:
+                    print(en_decoder_game.is_decoder_game(text))
                     if indicator == 0:
                         await talker.say(value)
                     else:
@@ -41,18 +45,32 @@ class MyBot(Wechaty):
                                 await room.add(talker)
 
                 else:
-                    await talker.ready()
-                    await talker.say(constants.default_msg)
+                    ## Add the message tpye here to decide the encoder or not
+                    if en_decoder_game.is_encoder_game(text) or en_decoder_game.is_decoder_game(text):
+                        return_msg = en_decoder_game.is_en_decoder(text)
+                        if return_msg == -1:
+                            await talker.say("格式错误")
+                        elif return_msg == 0:
+                            reply_msg = en_decoder_game.encoder_process(text, wechat_id)
+                            await talker.say(reply_msg)
+                        else:
+                            candidate = en_decoder_game.decoder_process(text, wechat_id)
+                            if candidate:
+                                if candidate.contact_pref == 'W':
+                                    name_card = self.Contact.load(candidate.wId)
+                                    await talker.say(name_card)
+                                elif candidate.contact_pref == 'E':
+                                    print("contact_pref", 'E')
+                                    await talker.say(en_decoder_game.get_email(candidate))
+                            else:
+                                await talker.say("格式错误或未找到匹配")
+                    else:
+                        await talker.ready()
+                        await talker.say(constants.default_msg)
 
             elif ".edu" in text or "@" in text:
-                MSMS = ['ruizhu@mit.edu', 'royz21@mit.edu', 'yangxi20@mit.edu',
-                        'tony93@mit.edu', 'irisc207@mit.edu', 'kritmate@mit.edu',
-                        'ericz28@mit.edu', 'hxjia@mit.edu', 'hnx228@mit.edu',
-                        'xiaoyu01@mit.edu', 'chenyz31@mit.edu']
                 await talker.ready()
                 text.strip()
-                if text.lower() in MSMS:
-                    await talker.say(constants.hello_msg_msms)
                 email_db = message_process.get_verified_code_by_email(text)
                 print(email_db)
                 if email_db is not None:
@@ -73,7 +91,6 @@ class MyBot(Wechaty):
                     await talker.say(constants.verification_failed_text)
             else:
                 await talker.ready()
-                print('is_first_talk', is_first_talk)
                 if is_first_talk:
                     await talker.say(constants.hello_msg)
                 else:
